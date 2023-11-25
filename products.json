@@ -1,0 +1,3827 @@
+{
+  "product": [
+    {
+      "material": "3 ML PCI ROLLON - EB1200",
+      "code": "RO",
+      "quantity": 1200,
+      "plant": "Jbr",
+      "weight": 13,
+      "gob": 4,
+      "moq": 12,
+      "price": 2229.92
+    },
+    {
+      "material": "2 ML OCT -EB960",
+      "code": "RO",
+      "quantity": "960",
+      "plant": "Ksb",
+      "weight": 13.6,
+      "gob": 4,
+      "moq": 12,
+      "price": 1330.5600000000002
+    },
+    {
+      "material": "5 ML ROLLON FIII-EB900",
+      "code": "RO",
+      "quantity": "900",
+      "plant": "Jbr",
+      "weight": 14,
+      "gob": 4,
+      "moq": 12,
+      "price": 1761.7600000000004
+    },
+    {
+      "material": "3 ML PATTI - EB960",
+      "code": "RO",
+      "quantity": "960",
+      "plant": "Ksb",
+      "weight": 14.2,
+      "gob": 4,
+      "moq": 20,
+      "price": 1330.5600000000002
+    },
+    {
+      "material": "3 ML PATTI (HEAVY WT.) -EB960",
+      "code": "RO",
+      "quantity": "960",
+      "plant": "Ksb",
+      "weight": 15.3,
+      "gob": 4,
+      "moq": 20,
+      "price": 1332.8000000000002
+    },
+    {
+      "material": "8 ML SQUARE ROLLON -EB468",
+      "code": "RO",
+      "quantity": "468",
+      "plant": "Ksb",
+      "weight": 20,
+      "gob": 4,
+      "moq": 4,
+      "price": 1796.4800000000002
+    },
+    {
+      "material": "6 ML PATTI - EB720",
+      "code": "RO",
+      "quantity": "720",
+      "plant": "Ksb",
+      "weight": 22,
+      "gob": 4,
+      "moq": 8,
+      "price": 1746.0800000000002
+    },
+    {
+      "material": "7 ML ROLLON -EB600",
+      "code": "RO",
+      "quantity": "600",
+      "plant": "Jbr",
+      "weight": 23,
+      "gob": 4,
+      "moq": 12,
+      "price": 1796.4800000000002
+    },
+    {
+      "material": "6 ML SFP - DB600",
+      "code": "RO",
+      "quantity": "600",
+      "plant": "Jbr",
+      "weight": 24,
+      "gob": 4,
+      "moq": 12,
+      "price": 1729.2800000000002
+    },
+    {
+      "material": "8 ML ROLLON -EB600",
+      "code": "RO",
+      "quantity": "600",
+      "plant": "Jbr",
+      "weight": 24,
+      "gob": 4,
+      "moq": 12,
+      "price": 1796.4800000000002
+    },
+    {
+      "material": "10 ML ROLLON -EB600",
+      "code": "RO",
+      "quantity": "600",
+      "plant": "Jbr",
+      "weight": 24,
+      "gob": 4,
+      "moq": 8,
+      "price": 1897.2800000000002
+    },
+    {
+      "material": "12 ML PATTI -EB480",
+      "code": "RO",
+      "quantity": "480",
+      "plant": "Jbr",
+      "weight": 31.6,
+      "gob": 3,
+      "moq": 8,
+      "price": 2014.88
+    },
+    {
+      "material": "3 ML CYLINDER ROLLON - EB600",
+      "code": "RO",
+      "quantity": "600",
+      "plant": "Ksb",
+      "weight": 16,
+      "moq": 20,
+      "price": 2200
+    },
+    null,
+    {
+      "material": "Row Labels",
+      "code": "code",
+      "quantity": "quantity",
+      "plant": "plant",
+      "weight": "weight",
+      "gob": "gob",
+      "moq": "moq",
+      "price": "price"
+    },
+    {
+      "material": "5 ML MINI -EB1344",
+      "code": "NP",
+      "quantity": 1344,
+      "plant": "Jbr",
+      "weight": 12,
+      "gob": 4,
+      "moq": 8,
+      "price": 1626.2400000000005
+    },
+    {
+      "material": "5 ML SLIM -EB865",
+      "code": "NP",
+      "quantity": "865",
+      "plant": "Ksb",
+      "weight": 12.2,
+      "gob": 4,
+      "moq": 4,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "4 ML CORELLE - DB768",
+      "code": "NP",
+      "quantity": "768",
+      "plant": "Ksb",
+      "weight": 13,
+      "gob": 4,
+      "moq": 4,
+      "price": 1899.9904000000006
+    },
+    {
+      "material": "5 ML JS CATHY - DB792",
+      "code": "NP",
+      "quantity": "792",
+      "plant": "Ksb",
+      "weight": 13.5,
+      "gob": 4,
+      "moq": 4,
+      "price": 2139.8608000000004
+    },
+    {
+      "material": "5 ML DELIA - EB888",
+      "code": "NP",
+      "quantity": "888",
+      "plant": "Ksb",
+      "weight": 15,
+      "gob": 4,
+      "moq": 4,
+      "price": 1707.5520000000004
+    },
+    {
+      "material": "5 ML ROCKY-1 -EB1038",
+      "code": "NP",
+      "quantity": "038",
+      "plant": "Ksb",
+      "weight": 15,
+      "gob": 3,
+      "moq": 3,
+      "price": 2240
+    },
+    {
+      "material": "5 ML SQUARE -EB780",
+      "code": "NP",
+      "quantity": "780",
+      "plant": "Ksb",
+      "weight": 15.75,
+      "gob": 4,
+      "moq": 4,
+      "price": 1756.3392000000006
+    },
+    {
+      "material": "5 ML MINI CAPRI -EB960",
+      "code": "NP",
+      "quantity": "960",
+      "plant": "Ksb",
+      "weight": 16,
+      "gob": 4,
+      "moq": 4,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "5 ML MINI LC - EB768",
+      "code": "NP",
+      "quantity": "768",
+      "plant": "Jbr",
+      "weight": 17,
+      "gob": 4,
+      "moq": 8,
+      "price": 1626.2400000000005
+    },
+    {
+      "material": "6 ML CTC DHAN DB-847",
+      "code": "NP",
+      "quantity": "847",
+      "plant": "Jbr",
+      "weight": 17,
+      "gob": 4,
+      "moq": 8,
+      "price": 1694.0000000000005
+    },
+    {
+      "material": "6 ML KD NISHI NAIL POLISH- DB720",
+      "code": "NP",
+      "quantity": "720",
+      "plant": "Jbr",
+      "weight": 17,
+      "gob": 4,
+      "moq": 8,
+      "price": 1655.8080000000002
+    },
+    {
+      "material": "5 ML MAXI CONIC - DB728",
+      "code": "NP",
+      "quantity": "728",
+      "plant": "Ksb",
+      "weight": 17,
+      "gob": 4,
+      "moq": 4,
+      "price": 1626.2400000000005
+    },
+    {
+      "material": "4.5 ML PINAL - DB652",
+      "code": "NP",
+      "quantity": "652",
+      "plant": "Ksb",
+      "weight": 17,
+      "gob": 4,
+      "moq": 4,
+      "price": 2011.1168000000005
+    },
+    {
+      "material": "6 ML GIBER - DB464",
+      "code": "NP",
+      "quantity": "464",
+      "plant": "Ksb",
+      "gob": 4,
+      "moq": 4,
+      "price": 1993.4992000000004
+    },
+    {
+      "material": "7 ML SAMMY PLAIN -EB660",
+      "code": "NP",
+      "quantity": "660",
+      "plant": "Ksb",
+      "weight": 18,
+      "gob": 4,
+      "moq": 4,
+      "price": 2442.070400000001
+    },
+    {
+      "material": "5 ML ALPHONSO - DB720",
+      "code": "NP",
+      "quantity": "720",
+      "plant": "Jbr",
+      "weight": 19,
+      "gob": 4,
+      "moq": 8,
+      "price": 1655.8080000000002
+    },
+    {
+      "material": "8 ML CAPRI -EB770",
+      "code": "NP",
+      "quantity": "770",
+      "plant": "Jbr",
+      "weight": 19,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "9 ML MONDIAL (MB) - EB495",
+      "code": "NP",
+      "quantity": "495",
+      "plant": "Ksb",
+      "weight": 19,
+      "gob": 3,
+      "moq": 3,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "9 ML MONDIAL -EB600",
+      "code": "NP",
+      "quantity": "600",
+      "plant": "Ksb",
+      "weight": 19,
+      "gob": 3,
+      "moq": 3,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "5 ML SQUEEZE - EB616",
+      "code": "NP",
+      "quantity": "616",
+      "plant": "Ksb",
+      "weight": 19,
+      "gob": 3,
+      "moq": 3,
+      "price": 2406.835200000001
+    },
+    {
+      "material": "5 ML COLOUR BOMB - DB360",
+      "code": "NP",
+      "quantity": "360",
+      "plant": "Ksb",
+      "weight": 19,
+      "gob": 4,
+      "moq": 4,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "5 ML COLOUR BOMB - DB360",
+      "code": "NP",
+      "quantity": "360",
+      "plant": "Ksb",
+      "weight": 19,
+      "gob": 4,
+      "moq": 4,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "9 ML KAYA - EB616",
+      "code": "NP",
+      "quantity": "616",
+      "plant": "Ksb",
+      "weight": 19,
+      "gob": 4,
+      "moq": 4,
+      "price": 2657.547200000001
+    },
+    {
+      "material": "7 ML ART CLUB - EB714",
+      "code": "NP",
+      "quantity": "714",
+      "plant": "Ksb",
+      "weight": 19.5,
+      "gob": 4,
+      "moq": 4,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "7 ML DIL -EB616",
+      "code": "NP",
+      "quantity": "616",
+      "plant": "Ksb",
+      "weight": 19.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "5 ML MG 50470 BIG SQUARE - EB630",
+      "quantity": "630",
+      "price": 2000
+    },
+    {
+      "material": "9 ML TOP EB792",
+      "code": "NP",
+      "quantity": "792",
+      "plant": "Ksb",
+      "weight": 19.7,
+      "gob": 3,
+      "moq": 3,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "5 ML KD SEPHORA DB-880",
+      "code": "NP",
+      "quantity": "880",
+      "plant": "Jbr",
+      "weight": 20,
+      "gob": 4,
+      "moq": 8,
+      "price": 1655.8080000000002
+    },
+    {
+      "material": "5 ML OP DELIGHT NAIL ENAMEL - DB663",
+      "code": "NP",
+      "quantity": "663",
+      "plant": "Jbr",
+      "weight": 20,
+      "gob": 4,
+      "moq": 8,
+      "price": 1655.8080000000002
+    },
+    {
+      "material": "6 ML KD BLACK MAGIC DB-660",
+      "code": "NP",
+      "quantity": "660",
+      "plant": "Jbr",
+      "weight": 20,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "5 ML IREN -EB596",
+      "code": "NP",
+      "quantity": "596",
+      "plant": "Jbr",
+      "weight": 20,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "5 ML IREN -EB616",
+      "code": "NP",
+      "quantity": "616",
+      "plant": "Jbr",
+      "weight": 20,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "5 ML KD HEX NAIL POLISH BOTTLE  - DB567",
+      "code": "NP",
+      "quantity": "567",
+      "plant": "Jbr",
+      "weight": 20,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "6 ML SKY - DB816",
+      "code": "NP",
+      "quantity": "816",
+      "plant": "Jbr",
+      "weight": 20.5,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "5 ML REVLON - DB546",
+      "code": "NP",
+      "quantity": "546",
+      "plant": "Jbr",
+      "weight": 20.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "6 ML CLAUDIA -EB465",
+      "code": "NP",
+      "quantity": "465",
+      "plant": "Jbr",
+      "weight": 20.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "5 ML NINA (NEW) - EB468",
+      "code": "NP",
+      "quantity": "468",
+      "plant": "Ksb",
+      "weight": 20.5,
+      "gob": 4,
+      "moq": 4,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "10 ML OSLO PLAIN - EB435",
+      "code": "NP",
+      "quantity": "435",
+      "plant": "Ksb",
+      "weight": 20.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2126.88
+    },
+    {
+      "material": "6 ML SUN - DB480",
+      "code": "NP",
+      "quantity": "480",
+      "plant": "Ksb",
+      "weight": 20.9,
+      "gob": 4,
+      "moq": 4,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "7.5 ML BP CONIC - DB716",
+      "code": "NP",
+      "quantity": "716",
+      "plant": "Jbr",
+      "weight": 21,
+      "gob": 4,
+      "moq": 8,
+      "price": 1572.0320000000002
+    },
+    {
+      "material": "7.5 ML BP TOP - DB720",
+      "code": "NP",
+      "quantity": "720",
+      "plant": "Jbr",
+      "weight": 21,
+      "gob": 4,
+      "moq": 8,
+      "price": 1655.8080000000002
+    },
+    {
+      "material": "6 ML KD LUNAR - DB600",
+      "code": "NP",
+      "quantity": "600",
+      "plant": "Jbr",
+      "weight": 21,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "7 ML GALANI - DB540",
+      "code": "NP",
+      "quantity": "540",
+      "plant": "Jbr",
+      "weight": 21,
+      "gob": 4,
+      "moq": 8,
+      "price": 1624.0000000000002
+    },
+    {
+      "material": "6 ML VOICE - DB465",
+      "code": "NP",
+      "quantity": "465",
+      "plant": "Jbr",
+      "weight": 21,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "5 ML ATHENS -EB435",
+      "code": "NP",
+      "quantity": "435",
+      "plant": "Jbr",
+      "weight": 21,
+      "gob": 3,
+      "moq": 3,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "5 ML BONSAI - DB572",
+      "code": "NP",
+      "quantity": "572",
+      "plant": "Jbr",
+      "weight": 21,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "6 ML YASH NAIL ENAMEL BOTTLE - DB672",
+      "code": "NP",
+      "quantity": "672",
+      "plant": "Jbr",
+      "weight": 21,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "5 ML KD ATHENS - DB435",
+      "code": "NP",
+      "quantity": "435",
+      "plant": "Jbr",
+      "weight": 21,
+      "gob": 4,
+      "moq": 8,
+      "price": 1655.8080000000002
+    },
+    {
+      "material": "5 ML FLUTTER DB-660",
+      "code": "NP",
+      "quantity": "660",
+      "plant": "Jbr",
+      "weight": 21,
+      "gob": 3,
+      "moq": 3,
+      "price": 1735.6416
+    },
+    {
+      "material": "7 ML ICON - EB620",
+      "code": "NP",
+      "quantity": "620",
+      "plant": "Jbr",
+      "weight": 21,
+      "gob": 3,
+      "moq": 3,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "7 ML SMART NAIL- DB560",
+      "code": "NP",
+      "quantity": "560",
+      "plant": "Jbr",
+      "weight": 21,
+      "gob": 4,
+      "moq": 8,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "6 ML NEW SEE-SAW NAIL POLISH",
+      "code": "NP",
+      "quantity": "ISH",
+      "plant": "Jbr",
+      "weight": 21,
+      "gob": 4,
+      "moq": 8,
+      "price": 1620.4668480000003
+    },
+    {
+      "material": "10 ML MADELAINE -EB405",
+      "code": "NP",
+      "quantity": "405",
+      "plant": "Ksb",
+      "weight": 21,
+      "gob": 3,
+      "moq": 3,
+      "price": 1954.1984000000004
+    },
+    {
+      "material": "6 ML TOP - EB660",
+      "code": "NP",
+      "quantity": "660",
+      "plant": "Ksb",
+      "weight": 21,
+      "gob": 3,
+      "moq": 3,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "6 ML STEM (ECONOMY)- DB672",
+      "code": "NP",
+      "quantity": "672",
+      "plant": "Ksb",
+      "weight": 21.21,
+      "gob": 4,
+      "moq": 4,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "7 ML FRUITY - DB540",
+      "code": "NP",
+      "quantity": "540",
+      "plant": "Jbr",
+      "weight": 21.5,
+      "gob": 4,
+      "moq": 8,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "6 ML STEM - DB672",
+      "code": "NP",
+      "quantity": "672",
+      "plant": "Ksb",
+      "weight": 21.5,
+      "gob": 4,
+      "moq": 4,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "10 ML MARVEL - EB702",
+      "code": "NP",
+      "quantity": "702",
+      "plant": "Ksb",
+      "weight": 21.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "5 ML JET -EB745",
+      "code": "NP",
+      "quantity": "745",
+      "plant": "Ksb",
+      "weight": 21.5,
+      "moq": 3,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "5 ML TINA - EB600",
+      "code": "NP",
+      "quantity": "600",
+      "plant": "Jbr",
+      "weight": 22,
+      "gob": 4,
+      "moq": 8,
+      "price": 1422.96
+    },
+    {
+      "material": "6 ML OP LIZ - DB660",
+      "code": "NP",
+      "quantity": "660",
+      "plant": "Jbr",
+      "weight": 22,
+      "gob": 4,
+      "moq": 8,
+      "price": 1626.2400000000005
+    },
+    {
+      "material": "8 ML DESIGNER - EB810",
+      "code": "NP",
+      "quantity": "810",
+      "plant": "Jbr",
+      "weight": 22,
+      "gob": 4,
+      "moq": 8,
+      "price": 1626.2400000000005
+    },
+    {
+      "material": "8 ML DESIGNER (JG) - DB810",
+      "code": "NP",
+      "quantity": "810",
+      "plant": "Jbr",
+      "weight": 22,
+      "gob": 4,
+      "moq": 8,
+      "price": 1626.2400000000005
+    },
+    {
+      "material": "7 ML BP REPUTE  DB-540",
+      "code": "NP",
+      "quantity": "540",
+      "plant": "Jbr",
+      "weight": 22,
+      "gob": 4,
+      "moq": 8,
+      "price": 1655.8080000000002
+    },
+    {
+      "material": "5 ML BP DRUM - DB760",
+      "code": "NP",
+      "quantity": "760",
+      "plant": "Jbr",
+      "weight": 22,
+      "gob": 4,
+      "moq": 8,
+      "price": 1694.0000000000005
+    },
+    {
+      "material": "6 ML BP CHARLIE - DB480",
+      "code": "NP",
+      "quantity": "480",
+      "plant": "Jbr",
+      "weight": 22,
+      "gob": 4,
+      "moq": 8,
+      "price": 1694.0000000000005
+    },
+    {
+      "material": "7 ML KD POPEYE DB-651",
+      "code": "NP",
+      "quantity": "651",
+      "plant": "Jbr",
+      "weight": 22,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "8 ML VISION -EB464",
+      "code": "NP",
+      "quantity": "464",
+      "plant": "Jbr",
+      "weight": 22,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "9 ML BP GLOBE - DB660",
+      "code": "NP",
+      "quantity": "660",
+      "plant": "Jbr",
+      "weight": 22,
+      "gob": 4,
+      "moq": 8,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "6 ML ANDREA - WITHOUT LOGO - EB519",
+      "code": "NP",
+      "quantity": "519",
+      "plant": "Ksb",
+      "weight": 22,
+      "gob": 3,
+      "moq": 3,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "6 ML LEAN - EB585",
+      "code": "NP",
+      "quantity": "585",
+      "plant": "Ksb",
+      "weight": 22,
+      "gob": 3,
+      "moq": 3,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "8 ML HANDS -EB416",
+      "code": "NP",
+      "quantity": "416",
+      "plant": "Ksb",
+      "weight": 22,
+      "price": 2548.0000000000005
+    },
+    {
+      "material": "5 ML CLOUD - DB560",
+      "code": "NP",
+      "quantity": "560",
+      "plant": "Ksb",
+      "weight": 22.2,
+      "gob": 4,
+      "moq": 4,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "5 ML OLGA - EB414",
+      "code": "NP",
+      "quantity": "414",
+      "plant": "Jbr",
+      "weight": 22.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "7 ML ELIAN STAR - EB495",
+      "code": "NP",
+      "quantity": "495",
+      "plant": "Ksb",
+      "weight": 22.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "7 ML ELIAN STAR - EB495",
+      "code": "NP",
+      "quantity": "495",
+      "plant": "Ksb",
+      "weight": 22.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "12 ML BEAUTY ROUND (MB) - EB280",
+      "code": "NP",
+      "quantity": "280",
+      "plant": "Ksb",
+      "weight": 22.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2507.120000000001
+    },
+    {
+      "material": "7 ML MEG",
+      "code": "NP",
+      "quantity": "MEG",
+      "plant": "Ksb",
+      "weight": 22.5,
+      "price": 2772.0000000000005
+    },
+    {
+      "material": "7 ML TOP - JAI - EB495",
+      "code": "NP",
+      "quantity": "495",
+      "plant": "Ksb",
+      "weight": 22.51,
+      "gob": 3,
+      "moq": 3,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "6 ML KD ADELE - EB480",
+      "code": "NP",
+      "quantity": "480",
+      "plant": "Jbr",
+      "weight": 22.99,
+      "gob": 4,
+      "moq": 8,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "10 ML DESIGNER (JG) - DB414",
+      "code": "NP",
+      "quantity": "414",
+      "plant": "Jbr",
+      "weight": 23,
+      "gob": 4,
+      "moq": 8,
+      "price": 1626.2400000000005
+    },
+    {
+      "material": "10 ML DESIGNER (JG) - DB810",
+      "code": "NP",
+      "quantity": "810",
+      "plant": "Jbr",
+      "weight": 23,
+      "gob": 4,
+      "moq": 8,
+      "price": 1626.2400000000005
+    },
+    {
+      "material": "8 ML ALMOND - DB540",
+      "code": "NP",
+      "quantity": "540",
+      "plant": "Jbr",
+      "weight": 23,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "7 ML KD NICKLE - DB570",
+      "code": "NP",
+      "quantity": "570",
+      "plant": "Jbr",
+      "weight": 23,
+      "gob": 4,
+      "moq": 8,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "6 ML EFFECT - DB525",
+      "code": "NP",
+      "quantity": "525",
+      "plant": "Jbr",
+      "weight": 23,
+      "gob": 3,
+      "moq": 3,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "6 ML D6 - DB486",
+      "code": "NP",
+      "quantity": "486",
+      "plant": "Jbr",
+      "weight": 23,
+      "gob": 4,
+      "moq": 8,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "6 ML JAI IRIS - DB576",
+      "code": "NP",
+      "quantity": "576",
+      "plant": "Jbr",
+      "weight": 23,
+      "gob": 4,
+      "moq": 8,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "6 ML AQUA - EB580",
+      "code": "NP",
+      "quantity": "580",
+      "plant": "Jbr",
+      "weight": 23,
+      "gob": 3,
+      "moq": 3,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "10 ML DESIGNER / GLORY - EB780",
+      "code": "NP",
+      "quantity": "780",
+      "plant": "Ksb",
+      "weight": 23,
+      "gob": 4,
+      "moq": 4,
+      "price": 1626.2400000000005
+    },
+    {
+      "material": "5 ML KATE (ECONOMY) - EB504",
+      "code": "NP",
+      "quantity": "504",
+      "plant": "Ksb",
+      "weight": 23,
+      "gob": 4,
+      "moq": 4,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "9 ML ONLY YOU - DB348",
+      "code": "NP",
+      "quantity": "348",
+      "plant": "Ksb",
+      "weight": 23,
+      "gob": 3,
+      "moq": 3,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "7 ML TOP- EB495",
+      "code": "NP",
+      "quantity": "495",
+      "plant": "Ksb",
+      "weight": 23,
+      "gob": 3,
+      "moq": 3,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "6 ML ARRO - DB504",
+      "code": "NP",
+      "quantity": "504",
+      "plant": "Ksb",
+      "weight": 23,
+      "gob": 4,
+      "moq": 4,
+      "price": 2168.3200000000006
+    },
+    {
+      "material": "10 ML GLORY FS PIN NOTCH - EB660",
+      "code": "NP",
+      "quantity": "660",
+      "plant": "Ksb",
+      "weight": 23,
+      "gob": 3,
+      "moq": 3,
+      "price": 2093.7840000000006
+    },
+    {
+      "material": "8 ML NEW IMPALA - CT233",
+      "code": "NP",
+      "quantity": "233",
+      "plant": "Ksb",
+      "weight": 23,
+      "gob": 3,
+      "moq": 3,
+      "price": 2642.6400000000003
+    },
+    {
+      "material": "8 ML NEW IMPALA -EB466",
+      "code": "NP",
+      "quantity": "466",
+      "plant": "Ksb",
+      "weight": 23,
+      "gob": 3,
+      "moq": 3,
+      "price": 2710.4
+    },
+    {
+      "material": "5 ML BARIS -EB594",
+      "code": "NP",
+      "quantity": "594",
+      "plant": "Jbr",
+      "weight": 23.5,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "5 ML BARIS -EB489",
+      "code": "NP",
+      "quantity": "489",
+      "plant": "Jbr",
+      "weight": 23.5,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "10 ML KD CATWALK - DB600",
+      "code": "NP",
+      "quantity": "600",
+      "plant": "Jbr",
+      "weight": 23.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2069.7600000000007
+    },
+    {
+      "material": "5 ML MICHELLE -EB450",
+      "code": "NP",
+      "quantity": "450",
+      "plant": "Ksb",
+      "weight": 23.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "12 ML NEW VICTORY ROUND - DB464",
+      "code": "NP",
+      "quantity": "464",
+      "plant": "Ksb",
+      "weight": 23.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 1939.2912000000003
+    },
+    {
+      "material": "07 ML LIZ - EB510",
+      "code": "NP",
+      "quantity": "510",
+      "plant": "Ksb",
+      "weight": 23.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 1626.2400000000005
+    },
+    {
+      "material": "5 ML DIVAGE - EB546",
+      "code": "NP",
+      "quantity": "546",
+      "plant": "Jbr",
+      "weight": 24,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "5 ML DIVAGE - EB546",
+      "code": "NP",
+      "quantity": "546",
+      "plant": "Jbr",
+      "weight": 24,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "5 ML DIVAGE - EB468",
+      "code": "NP",
+      "quantity": "468",
+      "plant": "Jbr",
+      "weight": 24,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "6 ML OP FLAVOUR - DB552",
+      "code": "NP",
+      "quantity": "552",
+      "plant": "Jbr",
+      "weight": 24,
+      "gob": 4,
+      "moq": 8,
+      "price": 1655.8080000000002
+    },
+    {
+      "material": "6 ML PS-1 - DB450",
+      "code": "NP",
+      "quantity": "450",
+      "plant": "Jbr",
+      "weight": 24,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "6 ML PS-1 - EB588",
+      "code": "NP",
+      "quantity": "588",
+      "plant": "Jbr",
+      "weight": 24,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "6 ML BP MUMBO JUMBO DB-540",
+      "code": "NP",
+      "quantity": "540",
+      "plant": "Jbr",
+      "weight": 24,
+      "gob": 4,
+      "moq": 8,
+      "price": 1724.8000000000004
+    },
+    {
+      "material": "6 ML CHOICE NAIL ENAMEL BOTTLE - DB486",
+      "code": "NP",
+      "quantity": "486",
+      "plant": "Jbr",
+      "weight": 24,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "6 ML CHOICE NAIL ENAMEL BOTTLE - DB510",
+      "code": "NP",
+      "quantity": "510",
+      "plant": "Jbr",
+      "weight": 24,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "6 ML KD ADELE - DB468",
+      "code": "NP",
+      "quantity": "468",
+      "plant": "Jbr",
+      "weight": 24,
+      "gob": 4,
+      "moq": 8,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "VERONA WITH S.B. - EB330",
+      "code": "NP",
+      "quantity": "330",
+      "plant": "Ksb",
+      "weight": 24,
+      "gob": 3,
+      "moq": 3,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "5 ML EVELINE - EB416",
+      "code": "NP",
+      "quantity": "416",
+      "plant": "Ksb",
+      "weight": 24,
+      "gob": 4,
+      "moq": 4,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "7 ML KD MILANO DB-546",
+      "code": "NP",
+      "quantity": "546",
+      "plant": "Jbr",
+      "weight": 24,
+      "gob": 4,
+      "moq": 8,
+      "price": 2032.8000000000004
+    },
+    {
+      "material": "8 ML DAMRU - DB480",
+      "code": "NP",
+      "quantity": "480",
+      "plant": "Jbr",
+      "weight": 24.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "6 ML EMBLEM - DB484",
+      "code": "NP",
+      "quantity": "484",
+      "plant": "Jbr",
+      "weight": 24.5,
+      "gob": 4,
+      "moq": 8,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "10 ML JU - EB396",
+      "code": "NP",
+      "quantity": "396",
+      "plant": "Jbr",
+      "weight": 25,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "6 ML BP OK DB-576",
+      "code": "NP",
+      "quantity": "576",
+      "plant": "Jbr",
+      "weight": 25,
+      "gob": 4,
+      "moq": 8,
+      "price": 1724.8000000000004
+    },
+    {
+      "material": "11 ML SEB -EB564",
+      "code": "NP",
+      "quantity": "564",
+      "plant": "Ksb",
+      "weight": 25,
+      "gob": 3,
+      "moq": 3,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "11 ML SEB -EB595",
+      "code": "NP",
+      "quantity": "595",
+      "plant": "Jbr",
+      "weight": 25,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "6 ML EVE - DB420",
+      "code": "NP",
+      "quantity": "420",
+      "plant": "Jbr",
+      "weight": 25,
+      "gob": 3,
+      "moq": 3,
+      "price": 1829.5200000000007
+    },
+    {
+      "material": "10 ML KD AUSTIN - DB560",
+      "code": "NP",
+      "quantity": "560",
+      "plant": "Jbr",
+      "weight": 25,
+      "gob": 3,
+      "moq": 3,
+      "price": 2106.7200000000003
+    },
+    {
+      "material": "11 ML ACE -EB411",
+      "code": "NP",
+      "quantity": "411",
+      "plant": "Jbr",
+      "weight": 25,
+      "gob": 3,
+      "moq": 3,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "11 ML INSIGHT - DB360",
+      "code": "NP",
+      "quantity": "360",
+      "plant": "Jbr",
+      "weight": 25,
+      "gob": 3,
+      "moq": 3,
+      "price": 2100.560000000001
+    },
+    {
+      "material": "12 ML JUARNO -EB504",
+      "code": "NP",
+      "quantity": "504",
+      "plant": "Ksb",
+      "weight": 25,
+      "gob": 3,
+      "moq": 3,
+      "price": 1921.92
+    },
+    {
+      "material": "9 ML EZABLE -EB500",
+      "code": "NP",
+      "quantity": "500",
+      "plant": "Ksb",
+      "weight": 25,
+      "gob": 3,
+      "moq": 3,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "6 ML STRAW - EB420",
+      "code": "NP",
+      "quantity": "420",
+      "plant": "Ksb",
+      "weight": 25,
+      "gob": 3,
+      "moq": 3,
+      "price": 2300
+    },
+    {
+      "material": "6 ML STRAW - EB420",
+      "code": "NP",
+      "quantity": "420",
+      "plant": "Ksb",
+      "weight": 25,
+      "gob": 3,
+      "moq": 3,
+      "price": 2100.560000000001
+    },
+    {
+      "material": "5 ML JAY-4",
+      "code": "NP",
+      "quantity": "Y-4",
+      "plant": "Ksb",
+      "weight": 25,
+      "price": 2236.080000000001
+    },
+    {
+      "material": "8 ML JADFROG - EB528",
+      "code": "NP",
+      "quantity": "528",
+      "plant": "Ksb",
+      "weight": 25.4,
+      "gob": 3,
+      "moq": 3,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "5 ML JASSY - DB528",
+      "code": "NP",
+      "quantity": "528",
+      "plant": "Jbr",
+      "weight": 26,
+      "gob": 4,
+      "moq": 8,
+      "price": 1829.5200000000007
+    },
+    {
+      "material": "5 ML ULTRA NAIL POLISH - DB480",
+      "code": "NP",
+      "quantity": "480",
+      "plant": "Jbr",
+      "weight": 26,
+      "gob": 4,
+      "moq": 8,
+      "price": 1761.7600000000007
+    },
+    {
+      "material": "6 ML KD MAYA - DB510",
+      "code": "NP",
+      "quantity": "510",
+      "plant": "Jbr",
+      "weight": 26,
+      "gob": 4,
+      "moq": 8,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "10 ML BP GISELE NAIL BOTTLE  DB-468",
+      "code": "NP",
+      "quantity": "468",
+      "plant": "Jbr",
+      "weight": 26,
+      "gob": 4,
+      "moq": 8,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "6 ML BP DEC - DB715",
+      "code": "NP",
+      "quantity": "715",
+      "plant": "Jbr",
+      "weight": 26,
+      "gob": 4,
+      "moq": 8,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "6 ML BP COATING - DB624",
+      "code": "NP",
+      "quantity": "624",
+      "plant": "Jbr",
+      "weight": 26,
+      "gob": 4,
+      "moq": 8,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "8 ML BP ANGLE - DB660",
+      "code": "NP",
+      "quantity": "660",
+      "plant": "Jbr",
+      "weight": 26,
+      "gob": 4,
+      "moq": 8,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "6 ML HIPS - EB414",
+      "code": "NP",
+      "quantity": "414",
+      "plant": "Jbr",
+      "weight": 26,
+      "gob": 4,
+      "moq": 8,
+      "price": 1975.8816000000006
+    },
+    {
+      "material": "7 ML SQUARE - DB495",
+      "code": "NP",
+      "quantity": "495",
+      "plant": "Jbr",
+      "weight": 26,
+      "gob": 4,
+      "moq": 8,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "8 ML BP OLGA - DB645",
+      "code": "NP",
+      "quantity": "645",
+      "plant": "Jbr",
+      "weight": 26,
+      "gob": 4,
+      "moq": 8,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "7 ML BERMUDA DB-540",
+      "code": "NP",
+      "quantity": "540",
+      "plant": "Jbr",
+      "weight": 26,
+      "gob": 3,
+      "moq": 3,
+      "price": 1951.4880000000005
+    },
+    {
+      "material": "10 ML KD CAPRICORN NAIL POLISH-DB600",
+      "code": "NP",
+      "quantity": "600",
+      "plant": "Jbr",
+      "weight": 26,
+      "gob": 3,
+      "moq": 3,
+      "price": 2168.3200000000006
+    },
+    {
+      "material": "10 ML NEW CANDY - EB576",
+      "code": "NP",
+      "quantity": "576",
+      "plant": "Ksb",
+      "weight": 26,
+      "gob": 3,
+      "moq": 3,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "16 ML BALL (PLAIN) -EB432",
+      "code": "NP",
+      "quantity": "432",
+      "plant": "Ksb",
+      "weight": 26,
+      "gob": 3,
+      "moq": 3,
+      "price": 2236.080000000001
+    },
+    {
+      "material": "9 ML GEM (ECONOMY) - DB390",
+      "code": "NP",
+      "quantity": "390",
+      "plant": "Ksb",
+      "weight": 26,
+      "gob": 3,
+      "moq": 3,
+      "price": 2303.8400000000006
+    },
+    {
+      "material": "15 ML ACE - EB450",
+      "code": "NP",
+      "quantity": "450",
+      "plant": "Ksb",
+      "weight": 26,
+      "gob": 3,
+      "moq": 3,
+      "price": 2249.6320000000005
+    },
+    {
+      "material": "15 ML ACE -EB540",
+      "code": "NP",
+      "quantity": "540",
+      "plant": "Ksb",
+      "weight": 26,
+      "gob": 3,
+      "moq": 3,
+      "price": 2303.8400000000006
+    },
+    {
+      "material": "14 ML GABY -EB552",
+      "code": "NP",
+      "quantity": "552",
+      "plant": "Ksb",
+      "weight": 26,
+      "gob": 3,
+      "moq": 3,
+      "price": 2507.120000000001
+    },
+    {
+      "material": "8 ML TROJAN - EB408",
+      "code": "NP",
+      "quantity": "408",
+      "plant": "Ksb",
+      "weight": 26,
+      "gob": 3,
+      "moq": 4,
+      "price": 2279.4464000000007
+    },
+    {
+      "material": "15 ML AMCY - EB474",
+      "code": "NP",
+      "quantity": "474",
+      "plant": "Ksb",
+      "weight": 26,
+      "gob": 3,
+      "moq": 4,
+      "price": 2100.560000000001
+    },
+    {
+      "material": "5 ML FLOAT-2 - EB468",
+      "code": "NP",
+      "quantity": "468",
+      "plant": "Ksb",
+      "weight": 26,
+      "price": 1800
+    },
+    {
+      "material": "6 ML JADE - EB420",
+      "code": "NP",
+      "quantity": "420",
+      "plant": "Jbr",
+      "weight": 26.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 1795.6400000000008
+    },
+    {
+      "material": "5 ML OLIVIA - EB567",
+      "code": "NP",
+      "quantity": "567",
+      "plant": "Ksb",
+      "weight": 26.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2303.8400000000006
+    },
+    {
+      "material": "7 ML HEXAGONAL - DB480",
+      "code": "NP",
+      "quantity": "480",
+      "plant": "Ksb",
+      "weight": 26.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2303.8400000000006
+    },
+    {
+      "material": "9 ML COZY - DB357",
+      "code": "NP",
+      "quantity": "357",
+      "plant": "Jbr",
+      "weight": 27,
+      "gob": 4,
+      "moq": 8,
+      "price": 1829.5200000000007
+    },
+    {
+      "material": "10 ML OP WRAP DB-450",
+      "code": "NP",
+      "quantity": "450",
+      "plant": "Jbr",
+      "weight": 27,
+      "gob": 3,
+      "moq": 3,
+      "price": 2026.0240000000003
+    },
+    {
+      "material": "9 ML ENGAGE - DB468",
+      "code": "NP",
+      "quantity": "468",
+      "plant": "Jbr",
+      "weight": 27,
+      "gob": 3,
+      "moq": 3,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "5 ML UV - DB504",
+      "code": "NP",
+      "quantity": "504",
+      "plant": "Jbr",
+      "weight": 27,
+      "gob": 3,
+      "moq": 3,
+      "price": 2168.3200000000006
+    },
+    {
+      "material": "12 ML OVAL -EB504",
+      "code": "NP",
+      "quantity": "504",
+      "plant": "Ksb",
+      "weight": 27,
+      "gob": 3,
+      "moq": 3,
+      "price": 2303.8400000000006
+    },
+    {
+      "material": "10 ML FUZZY - DB476",
+      "code": "NP",
+      "quantity": "476",
+      "plant": "Ksb",
+      "weight": 27,
+      "gob": 3,
+      "moq": 3,
+      "price": 2507.120000000001
+    },
+    {
+      "material": "8 ML NATI - EB528",
+      "code": "NP",
+      "quantity": "528",
+      "plant": "Ksb",
+      "weight": 27,
+      "gob": 3,
+      "moq": 3,
+      "price": 2303.8400000000006
+    },
+    {
+      "material": "15 ML CREATION LAMIS -EB575",
+      "code": "NP",
+      "quantity": "575",
+      "plant": "Ksb",
+      "weight": 27,
+      "gob": 3,
+      "moq": 3,
+      "price": 2513.896000000001
+    },
+    {
+      "material": "12 ML FLETON",
+      "code": "NP",
+      "quantity": "TON",
+      "plant": "Ksb",
+      "weight": 27.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2236.080000000001
+    },
+    {
+      "material": "10 ML SNOWFLAKE - EB390",
+      "code": "NP",
+      "quantity": "390",
+      "plant": "Ksb",
+      "weight": 27.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2303.8400000000006
+    },
+    {
+      "material": "6 ML BP PERSONAL - DB520",
+      "code": "NP",
+      "quantity": "520",
+      "plant": "Jbr",
+      "weight": 28,
+      "gob": 4,
+      "moq": 8,
+      "price": 1897.2800000000007
+    },
+    {
+      "material": "10 ML VIVA DB-429",
+      "code": "NP",
+      "quantity": "429",
+      "plant": "Jbr",
+      "weight": 28,
+      "gob": 4,
+      "moq": 8,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "10 ML TORONTO - DB405",
+      "code": "NP",
+      "quantity": "405",
+      "plant": "Jbr",
+      "weight": 28,
+      "gob": 4,
+      "moq": 8,
+      "price": 2303.8400000000006
+    },
+    {
+      "material": "7 ML VERO - EB336",
+      "code": "NP",
+      "quantity": "336",
+      "plant": "Jbr",
+      "weight": 28,
+      "gob": 3,
+      "moq": 3,
+      "price": 2168.3200000000006
+    },
+    {
+      "material": "10 ML VIRGO NAIL POLISH BOTTLE - DB528",
+      "code": "NP",
+      "quantity": "528",
+      "plant": "Jbr",
+      "weight": 28,
+      "gob": 3,
+      "moq": 3,
+      "price": 2303.8400000000006
+    },
+    {
+      "material": "12 ML SATIN -EB525",
+      "code": "NP",
+      "quantity": "525",
+      "plant": "Ksb",
+      "weight": 28,
+      "gob": 3,
+      "moq": 3,
+      "price": 1965.0400000000006
+    },
+    {
+      "material": "12 ML DIL -EB575",
+      "code": "NP",
+      "quantity": "575",
+      "plant": "Ksb",
+      "weight": 28,
+      "gob": 3,
+      "moq": 3,
+      "price": 2303.8400000000006
+    },
+    {
+      "material": "18 ML MONDIAL -EB450",
+      "code": "NP",
+      "quantity": "450",
+      "plant": "Ksb",
+      "weight": 28,
+      "gob": 3,
+      "moq": 3,
+      "price": 2133.0848000000005
+    },
+    {
+      "material": "10 ML MKK INSIGHT DB-486",
+      "code": "NP",
+      "quantity": "486",
+      "plant": "Jbr",
+      "weight": 28,
+      "gob": 3,
+      "moq": 3,
+      "price": 2507.1200000000003
+    },
+    {
+      "material": "10 ML KD TENDER- DB390",
+      "code": "NP",
+      "quantity": "390",
+      "plant": "Jbr",
+      "weight": 28.5,
+      "gob": 4,
+      "moq": 8,
+      "price": 2168.3200000000006
+    },
+    {
+      "material": "10 ML ACE - EB411",
+      "code": "NP",
+      "quantity": "411",
+      "plant": "Ksb",
+      "weight": 28.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2236.080000000001
+    },
+    {
+      "material": "10 ML ACE - EB480",
+      "code": "NP",
+      "quantity": "480",
+      "plant": "Ksb",
+      "weight": 28.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2210.3312000000005
+    },
+    {
+      "material": "10 ML TIPS - DB432",
+      "code": "NP",
+      "quantity": "432",
+      "plant": "Ksb",
+      "weight": 28.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2303.8400000000006
+    },
+    {
+      "material": "12 ML INTUITION - EB396",
+      "code": "NP",
+      "quantity": "396",
+      "plant": "Ksb",
+      "weight": 28.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2303.8400000000006
+    },
+    {
+      "material": "9 ML CRAZY - EB495",
+      "code": "NP",
+      "quantity": "495",
+      "plant": "Jbr",
+      "weight": 28.51,
+      "gob": 4,
+      "moq": 8,
+      "price": 1863.4000000000008
+    },
+    {
+      "material": "9 ML CRAZY - DB396",
+      "code": "NP",
+      "quantity": "396",
+      "plant": "Jbr",
+      "weight": 28.51,
+      "gob": 4,
+      "moq": 8,
+      "price": 1863.4000000000008
+    },
+    {
+      "material": "9 ML OLGA -EB298",
+      "code": "NP",
+      "quantity": "298",
+      "plant": "Jbr",
+      "weight": 28.99,
+      "gob": 3,
+      "moq": 3,
+      "price": 2168.3200000000006
+    },
+    {
+      "material": "10 ML OP FLAVOUR NEW DB-468",
+      "code": "NP",
+      "quantity": "468",
+      "plant": "Jbr",
+      "weight": 29,
+      "gob": 3,
+      "moq": 3,
+      "price": 1912.6800000000005
+    },
+    {
+      "material": "9 ML KD CHROME - DB462",
+      "code": "NP",
+      "quantity": "462",
+      "plant": "Jbr",
+      "weight": 29,
+      "gob": 4,
+      "moq": 8,
+      "price": 2168.3200000000006
+    },
+    {
+      "material": "7 ML BP ART - DB414",
+      "code": "NP",
+      "quantity": "414",
+      "plant": "Jbr",
+      "weight": 29,
+      "gob": 4,
+      "moq": 8,
+      "price": 2100.560000000001
+    },
+    {
+      "material": "10 ML EYE LINER - EB442",
+      "code": "NP",
+      "quantity": "442",
+      "plant": "Jbr",
+      "weight": 29,
+      "gob": 3,
+      "moq": 3,
+      "price": 2604.0000000000005
+    },
+    {
+      "material": "15ml Top 1 Glass Bottle - EB540",
+      "code": "NP",
+      "quantity": "540",
+      "plant": "Ksb",
+      "weight": 29,
+      "gob": 3,
+      "moq": 3,
+      "price": 2559.972800000001
+    },
+    {
+      "material": "10 ML NEFIS",
+      "code": "NP",
+      "quantity": "FIS",
+      "plant": "Ksb",
+      "weight": 29,
+      "gob": 3,
+      "moq": 3,
+      "price": 2507.120000000001
+    },
+    {
+      "material": "10 ML NEFIS",
+      "code": "NP",
+      "quantity": "FIS",
+      "plant": "Ksb",
+      "weight": 29,
+      "gob": 3,
+      "moq": 3,
+      "price": 2507.120000000001
+    },
+    {
+      "material": "15 ML CATHERINE -EB308",
+      "code": "NP",
+      "quantity": "308",
+      "plant": "Ksb",
+      "weight": 29,
+      "gob": 3,
+      "moq": 3,
+      "price": 2371.600000000001
+    },
+    {
+      "material": "8 ML DESEO - EB396",
+      "code": "NP",
+      "quantity": "396",
+      "plant": "Ksb",
+      "weight": 29,
+      "gob": 3,
+      "moq": 3,
+      "price": 2371.600000000001
+    },
+    {
+      "material": "10 ML HARDY - EB324",
+      "code": "NP",
+      "quantity": "324",
+      "plant": "Ksb",
+      "weight": 29,
+      "gob": 3,
+      "moq": 3,
+      "price": 3591.2800000000016
+    },
+    {
+      "material": "15 ML OVAL - EB360",
+      "code": "NP",
+      "quantity": "360",
+      "plant": "Ksb",
+      "weight": 29,
+      "gob": 3,
+      "moq": 3,
+      "price": 2837.7888000000007
+    },
+    {
+      "material": "10 ML DESIRE - EB315",
+      "code": "NP",
+      "quantity": "315",
+      "plant": "Ksb",
+      "weight": 29.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2371.600000000001
+    },
+    {
+      "material": "10 ML OVAL PERFUME -EB364",
+      "code": "NP",
+      "quantity": "364",
+      "plant": "Jbr",
+      "weight": 30,
+      "gob": 4,
+      "moq": 8,
+      "price": 2032.8000000000006
+    },
+    {
+      "material": "10 ML KD PAGODA - DB429",
+      "code": "NP",
+      "quantity": "429",
+      "plant": "Jbr",
+      "weight": 30,
+      "gob": 4,
+      "moq": 8,
+      "price": 2303.8400000000006
+    },
+    {
+      "material": "10 ML KD STORY NAIL POLISH DB-484",
+      "code": "NP",
+      "quantity": "484",
+      "plant": "Jbr",
+      "weight": 30,
+      "gob": 3,
+      "moq": 3,
+      "price": 2125.2000000000003
+    },
+    {
+      "material": "9 ML BP MOMENT NAIL POLISH DB-480",
+      "code": "NP",
+      "quantity": "480",
+      "plant": "Jbr",
+      "weight": 30,
+      "gob": 3,
+      "moq": 3,
+      "price": 2168.3200000000006
+    },
+    {
+      "material": "10 ML BP CONFIDENCE NAIL POLISH - DB450",
+      "code": "NP",
+      "quantity": "450",
+      "plant": "Jbr",
+      "weight": 30,
+      "gob": 3,
+      "moq": 3,
+      "price": 2168.3200000000006
+    },
+    {
+      "material": "11 ML BP MG DB-405",
+      "code": "NP",
+      "quantity": "405",
+      "plant": "Jbr",
+      "weight": 30,
+      "gob": 3,
+      "moq": 3,
+      "price": 2236.080000000001
+    },
+    {
+      "material": "8 ML RECTANGLE - EB396",
+      "code": "NP",
+      "quantity": "396",
+      "plant": "Ksb",
+      "weight": 30,
+      "gob": 3,
+      "moq": 3,
+      "price": 2371.600000000001
+    },
+    {
+      "material": "10 ML KD MELODY - EB264",
+      "code": "NP",
+      "quantity": "264",
+      "plant": "Ksb",
+      "weight": 30,
+      "gob": 3,
+      "moq": 3,
+      "price": 2574.88
+    },
+    {
+      "material": "10 ML RECTANGULAR -EB324",
+      "code": "NP",
+      "quantity": "324",
+      "plant": "Ksb",
+      "weight": 30,
+      "gob": 3,
+      "moq": 3,
+      "price": 2371.600000000001
+    },
+    {
+      "material": "11 ML EAST - DB452",
+      "code": "NP",
+      "quantity": "452",
+      "plant": "Ksb",
+      "weight": 30,
+      "gob": 3,
+      "moq": 3,
+      "price": 2439.3600000000006
+    },
+    {
+      "material": "10 ML CTC RISING CLOUD",
+      "code": "NP",
+      "quantity": "OUD",
+      "plant": "Ksb",
+      "weight": 30,
+      "gob": 3,
+      "moq": 3,
+      "price": 2710.4
+    },
+    {
+      "material": "7 ML PREFIX ROUND - EB324",
+      "code": "NP",
+      "quantity": "324",
+      "plant": "Ksb",
+      "weight": 30,
+      "gob": 3,
+      "moq": 3,
+      "price": 3116.9600000000005
+    },
+    {
+      "material": "14 ML SHAN",
+      "code": "NP",
+      "quantity": "HAN",
+      "plant": "Ksb",
+      "weight": 30,
+      "gob": 3,
+      "moq": 3,
+      "price": 3116.9600000000005
+    },
+    {
+      "material": "12 ML CYLINDER - EB405",
+      "code": "NP",
+      "quantity": "405",
+      "plant": "Ksb",
+      "weight": 30.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2439.3600000000006
+    },
+    {
+      "material": "10 ML KD ENTITY - EB330",
+      "code": "NP",
+      "quantity": "330",
+      "plant": "Ksb",
+      "weight": 30.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2574.88
+    },
+    {
+      "material": "11 ML CGP CATALONIA - EB330",
+      "code": "NP",
+      "quantity": "330",
+      "plant": "Ksb",
+      "weight": 30.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2833.6000000000004
+    },
+    {
+      "material": "10 ML KD ROUND - DB405",
+      "code": "NP",
+      "quantity": "405",
+      "plant": "Jbr",
+      "weight": 31,
+      "gob": 4,
+      "moq": 8,
+      "price": 2303.8400000000006
+    },
+    {
+      "material": "10 ML JAI PALETTE - DB432",
+      "code": "NP",
+      "quantity": "432",
+      "plant": "Jbr",
+      "weight": 31,
+      "gob": 4,
+      "moq": 8,
+      "price": 2290.2880000000005
+    },
+    {
+      "material": "10 ML BP EMINENT NAIL POLISH - DB429",
+      "code": "NP",
+      "quantity": "429",
+      "plant": "Jbr",
+      "weight": 31,
+      "gob": 4,
+      "moq": 8,
+      "price": 2303.8400000000006
+    },
+    {
+      "material": "10 ML KD DELTA - DB390",
+      "code": "NP",
+      "quantity": "390",
+      "plant": "Jbr",
+      "weight": 31,
+      "gob": 3,
+      "moq": 3,
+      "price": 2439.3600000000006
+    },
+    {
+      "material": "10 ML SATIN -EB525",
+      "code": "NP",
+      "quantity": "525",
+      "plant": "Ksb",
+      "weight": 31.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2236.080000000001
+    },
+    {
+      "material": "6 ML OP EYE  - EB450",
+      "code": "NP",
+      "quantity": "450",
+      "plant": "Ksb",
+      "weight": 31.509,
+      "gob": 3,
+      "moq": 3,
+      "price": 2574.88
+    },
+    {
+      "material": "11 ML DOLLY - DB352",
+      "code": "NP",
+      "quantity": "352",
+      "plant": "Jbr",
+      "weight": 32,
+      "gob": 4,
+      "moq": 8,
+      "price": 2371.600000000001
+    },
+    {
+      "material": "LIZ NAIL ENAMEL -EB330",
+      "code": "NP",
+      "quantity": "330",
+      "plant": "Jbr",
+      "weight": 32,
+      "gob": 3,
+      "moq": 3,
+      "price": 2168.3200000000006
+    },
+    {
+      "material": "10 ML JAZE - DB390",
+      "code": "NP",
+      "quantity": "390",
+      "plant": "Jbr",
+      "weight": 32,
+      "gob": 3,
+      "moq": 3,
+      "price": 2371.600000000001
+    },
+    {
+      "material": "12 ML BP LAUNCH EB-420",
+      "code": "NP",
+      "quantity": "420",
+      "plant": "Jbr",
+      "weight": 32,
+      "gob": 3,
+      "moq": 3,
+      "price": 2371.600000000001
+    },
+    {
+      "material": "10 ML KD ALLIANCE - DB432",
+      "code": "NP",
+      "quantity": "432",
+      "plant": "Jbr",
+      "weight": 32,
+      "gob": 3,
+      "moq": 3,
+      "price": 2574.88
+    },
+    {
+      "material": "12 ML SR MATT LOOK - DB390",
+      "code": "NP",
+      "quantity": "390",
+      "plant": "Jbr",
+      "weight": 32,
+      "gob": 3,
+      "moq": 3,
+      "price": 2601.9840000000004
+    },
+    {
+      "material": "8 ML BP MINAR DB-504",
+      "code": "NP",
+      "quantity": "504",
+      "plant": "Jbr",
+      "weight": 32,
+      "gob": 3,
+      "moq": 3,
+      "price": 2474.8735
+    },
+    {
+      "material": "10 ML OK",
+      "code": "NP",
+      "quantity": " OK",
+      "plant": "Jbr",
+      "weight": 32,
+      "gob": 3,
+      "moq": 3,
+      "price": 2507.120000000001
+    },
+    {
+      "material": "10 ML MKK SPARROW DB-378",
+      "code": "NP",
+      "quantity": "378",
+      "plant": "Jbr",
+      "weight": 32,
+      "gob": 3,
+      "moq": 3,
+      "price": 2710.4
+    },
+    {
+      "material": "15 ML ZOYA - EB352",
+      "code": "NP",
+      "quantity": "352",
+      "plant": "Jbr",
+      "weight": 32,
+      "gob": 3,
+      "moq": 3,
+      "price": 2845.92
+    },
+    {
+      "material": "10 ML CARAT - DB462",
+      "code": "NP",
+      "quantity": "462",
+      "plant": "Jbr",
+      "weight": 32,
+      "gob": 4,
+      "moq": 8,
+      "price": 2200
+    },
+    {
+      "material": "10 ML KD Milano",
+      "code": "NP",
+      "quantity": "ano",
+      "plant": "Jbr",
+      "weight": 32,
+      "gob": 3,
+      "moq": 3,
+      "price": 2574.88
+    },
+    {
+      "material": "10 ML SHEER - EB360",
+      "code": "NP",
+      "quantity": "360",
+      "plant": "Ksb",
+      "weight": 32,
+      "gob": 3,
+      "moq": 3,
+      "price": 2439.3600000000006
+    },
+    {
+      "material": "8 ML OLIVIA - EB320",
+      "code": "NP",
+      "quantity": "320",
+      "plant": "Ksb",
+      "weight": 32,
+      "gob": 3,
+      "moq": 3,
+      "price": 2574.88
+    },
+    {
+      "material": "10 ML CHIVALRY - EB396",
+      "code": "NP",
+      "quantity": "396",
+      "plant": "Ksb",
+      "weight": 32,
+      "gob": 3,
+      "moq": 3,
+      "price": 2439.3600000000006
+    },
+    {
+      "material": "15 ML ROCKY (13/415) -EB385",
+      "code": "NP",
+      "quantity": "385",
+      "plant": "Ksb",
+      "weight": 32,
+      "gob": 3,
+      "moq": 3,
+      "price": 2263.1840000000007
+    },
+    {
+      "material": "9 ML OP CUBE - DB390",
+      "code": "NP",
+      "quantity": "390",
+      "plant": "Ksb",
+      "weight": 32,
+      "gob": 3,
+      "moq": 3,
+      "price": 2574.88
+    },
+    {
+      "material": "10 ML XTRA NAIL POLISH DB-352",
+      "code": "NP",
+      "quantity": "352",
+      "plant": "Jbr",
+      "weight": 32,
+      "gob": 3,
+      "moq": 3,
+      "price": 2464.0000000000005
+    },
+    {
+      "material": "10 ML DIVAGE - EB390",
+      "code": "NP",
+      "quantity": "390",
+      "plant": "Ksb",
+      "weight": 32.31,
+      "gob": 3,
+      "moq": 3,
+      "price": 2371.600000000001
+    },
+    {
+      "material": "10 ML ISTANBUL - EB252",
+      "code": "NP",
+      "quantity": "252",
+      "plant": "Ksb",
+      "weight": 32.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2574.88
+    },
+    {
+      "material": "10 ML FADI -EB360",
+      "code": "NP",
+      "quantity": "360",
+      "plant": "Ksb",
+      "weight": 32.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2265.8944
+    },
+    {
+      "material": "10 ML CUBE +  EB256",
+      "code": "NP",
+      "quantity": "256",
+      "plant": "Ksb",
+      "weight": 32.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 3049.2000000000003
+    },
+    {
+      "material": "10 ML CUBE +  EB256",
+      "code": "NP",
+      "quantity": "256",
+      "plant": "Ksb",
+      "weight": 32.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 3049.2000000000003
+    },
+    {
+      "material": "10 ML KD PARIS",
+      "code": "NP",
+      "quantity": "RIS",
+      "plant": "Ksb",
+      "weight": 32.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2956.8
+    },
+    {
+      "material": "10 ML LACE (LDPE) - EB400",
+      "code": "NP",
+      "quantity": "400",
+      "plant": "Ksb",
+      "weight": 32.6,
+      "gob": 3,
+      "moq": 3,
+      "price": 2574.88
+    },
+    {
+      "material": "10 ML LACE - DB432",
+      "code": "NP",
+      "quantity": "432",
+      "plant": "Ksb",
+      "weight": 32.6,
+      "gob": 3,
+      "moq": 3,
+      "price": 2574.88
+    },
+    {
+      "material": "10 ML PURE NAIL POLISH BOTTLE - DB360",
+      "code": "NP",
+      "quantity": "360",
+      "plant": "Jbr",
+      "weight": 33,
+      "gob": 4,
+      "moq": 8,
+      "price": 2236.080000000001
+    },
+    {
+      "material": "6 ML KAALIF - EB429",
+      "code": "NP",
+      "quantity": "429",
+      "plant": "Jbr",
+      "weight": 33,
+      "gob": 3,
+      "moq": 3,
+      "price": 2371.600000000001
+    },
+    {
+      "material": "12 ML BP HYPNOTIC EB-408",
+      "code": "NP",
+      "quantity": "408",
+      "plant": "Jbr",
+      "weight": 33,
+      "gob": 3,
+      "moq": 3,
+      "price": 2439.3600000000006
+    },
+    {
+      "material": "10 ML BP STATUS NAIL POLISH - DB380",
+      "code": "NP",
+      "quantity": "380",
+      "plant": "Jbr",
+      "weight": 33,
+      "gob": 3,
+      "moq": 3,
+      "price": 2439.3600000000006
+    },
+    {
+      "material": "10 ML REVLON SWEET - DB390",
+      "code": "NP",
+      "quantity": "390",
+      "plant": "Ksb",
+      "weight": 33,
+      "gob": 3,
+      "moq": 3,
+      "price": 2574.88
+    },
+    {
+      "material": "11 ML VISION - EB285",
+      "code": "NP",
+      "quantity": "285",
+      "plant": "Ksb",
+      "weight": 33,
+      "gob": 3,
+      "moq": 3,
+      "price": 2439.3600000000006
+    },
+    {
+      "material": "12 ML CRYSTAL - EB312",
+      "code": "NP",
+      "quantity": "312",
+      "plant": "Ksb",
+      "weight": 33,
+      "gob": 3,
+      "moq": 3,
+      "price": 2439.3600000000006
+    },
+    {
+      "material": "12 ML CONDO - DB330",
+      "code": "NP",
+      "quantity": "330",
+      "plant": "Ksb",
+      "weight": 33,
+      "gob": 3,
+      "moq": 3,
+      "price": 2100.560000000001
+    },
+    {
+      "material": "10 ML CTC VIGOR - EB297",
+      "code": "NP",
+      "quantity": "297",
+      "plant": "Ksb",
+      "weight": 33,
+      "gob": 3,
+      "moq": 3,
+      "price": 2926.0000000000005
+    },
+    {
+      "material": "11 ML VICTORIA -EB390",
+      "code": "NP",
+      "quantity": "390",
+      "plant": "Ksb",
+      "weight": 33,
+      "gob": 3,
+      "moq": 4,
+      "price": 2956.8
+    },
+    {
+      "material": "11 ML INTERNATIONAL (MB) - EB324",
+      "code": "NP",
+      "quantity": "324",
+      "plant": "Ksb",
+      "weight": 33.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2371.600000000001
+    },
+    {
+      "material": "11 ML INTERNATIONAL -EB405",
+      "code": "NP",
+      "quantity": "405",
+      "plant": "Ksb",
+      "weight": 33.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2371.600000000001
+    },
+    {
+      "material": "8 ML OP SQUARE CUT - DB396",
+      "code": "NP",
+      "quantity": "396",
+      "plant": "Ksb",
+      "weight": 33.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2845.92
+    },
+    {
+      "material": "12 ML OBLONG WAF -EB378",
+      "code": "NP",
+      "quantity": "378",
+      "plant": "Ksb",
+      "weight": 33.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 3320.2400000000007
+    },
+    {
+      "material": "10 ML CTC CARE",
+      "code": "NP",
+      "quantity": "ARE",
+      "plant": "Ksb",
+      "weight": 33.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2660.0000000000005
+    },
+    {
+      "material": "12 ML SHELLY - EB324",
+      "code": "NP",
+      "quantity": "324",
+      "plant": "Ksb",
+      "weight": 34,
+      "gob": 3,
+      "moq": 4,
+      "price": 2956.8
+    },
+    {
+      "material": "10 ML ATHENS -EB380",
+      "code": "NP",
+      "quantity": "380",
+      "plant": "Jbr",
+      "weight": 34,
+      "gob": 3,
+      "moq": 3,
+      "price": 2208.9760000000006
+    },
+    {
+      "material": "10 ML KD TOTE BAG EB-484",
+      "code": "NP",
+      "quantity": "484",
+      "plant": "Jbr",
+      "weight": 34,
+      "gob": 3,
+      "moq": 3,
+      "price": 2439.3600000000006
+    },
+    {
+      "material": "8 ML KD ENCHANT - EB384",
+      "code": "NP",
+      "quantity": "384",
+      "plant": "Jbr",
+      "weight": 34,
+      "gob": 3,
+      "moq": 3,
+      "price": 2439.3600000000006
+    },
+    {
+      "material": "10 ML FEMME -EB432",
+      "code": "NP",
+      "quantity": "432",
+      "plant": "Ksb",
+      "weight": 34,
+      "gob": 3,
+      "moq": 3,
+      "price": 2303.8400000000006
+    },
+    {
+      "material": "12 ML ELENA - EB270",
+      "code": "NP",
+      "quantity": "270",
+      "plant": "Ksb",
+      "weight": 34,
+      "gob": 3,
+      "moq": 3,
+      "price": 2574.88
+    },
+    {
+      "material": "10 ML CEDAR - EB378",
+      "code": "NP",
+      "quantity": "378",
+      "plant": "Ksb",
+      "weight": 34,
+      "gob": 3,
+      "moq": 3,
+      "price": 2574.88
+    },
+    {
+      "material": "10 ML LAVIE  DB-384",
+      "code": "NP",
+      "quantity": "384",
+      "plant": "Jbr",
+      "weight": 34,
+      "gob": 3,
+      "moq": 3,
+      "price": 2507.1200000000003
+    },
+    {
+      "material": "12 ML BP IDEA",
+      "code": "NP",
+      "quantity": "DEA",
+      "plant": "Ksb",
+      "weight": 34,
+      "gob": 3,
+      "moq": 3,
+      "price": 2688.0000000000005
+    },
+    {
+      "material": "10 ML FARGO - EB351",
+      "code": "NP",
+      "quantity": "351",
+      "plant": "Ksb",
+      "weight": 34.177,
+      "gob": 3,
+      "moq": 3,
+      "price": 2574.88
+    },
+    {
+      "material": "12 ML JADE - EB408",
+      "code": "NP",
+      "quantity": "408",
+      "plant": "Ksb",
+      "weight": 34.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2507.120000000001
+    },
+    {
+      "material": "10 ML CLARITY - EB330",
+      "code": "NP",
+      "quantity": "330",
+      "plant": "Ksb",
+      "weight": 34.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2439.3600000000006
+    },
+    {
+      "material": "10 ML CTC FLUENT",
+      "code": "NP",
+      "quantity": "ENT",
+      "plant": "Ksb",
+      "weight": 34.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2759.6800000000007
+    },
+    {
+      "material": "11 ML FRENCHI - EB324",
+      "code": "NP",
+      "quantity": "324",
+      "plant": "Ksb",
+      "weight": 34.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2507.120000000001
+    },
+    {
+      "material": "11 ML INTERNATIONAL 15 MM - EB405",
+      "code": "NP",
+      "quantity": "405",
+      "plant": "Ksb",
+      "weight": 34.567,
+      "gob": 3,
+      "moq": 3,
+      "price": 2371.600000000001
+    },
+    {
+      "material": "8 ML AVON INDIA - EB429",
+      "code": "NP",
+      "quantity": "429",
+      "plant": "Jbr",
+      "weight": 35,
+      "gob": 3,
+      "moq": 3,
+      "price": 2507.120000000001
+    },
+    {
+      "material": "9 ML QUIVER - DB351",
+      "code": "NP",
+      "quantity": "351",
+      "plant": "Jbr",
+      "weight": 35,
+      "gob": 3,
+      "moq": 3,
+      "price": 2371.600000000001
+    },
+    {
+      "material": "10 ML BP NUBER DB-416",
+      "code": "NP",
+      "quantity": "416",
+      "plant": "Jbr",
+      "weight": 35,
+      "gob": 3,
+      "moq": 3,
+      "price": 2439.3600000000006
+    },
+    {
+      "material": "10 ML BP ROUND - DB282",
+      "code": "NP",
+      "quantity": "282",
+      "plant": "Jbr",
+      "weight": 35,
+      "gob": 3,
+      "moq": 3,
+      "price": 2574.88
+    },
+    {
+      "material": "10 ML KD RASH - DB440",
+      "code": "NP",
+      "quantity": "440",
+      "plant": "Jbr",
+      "weight": 35,
+      "gob": 3,
+      "moq": 3,
+      "price": 2574.88
+    },
+    {
+      "material": "10 ML KD DUBLIN - DB360",
+      "code": "NP",
+      "quantity": "360",
+      "plant": "Jbr",
+      "weight": 35,
+      "gob": 3,
+      "moq": 3,
+      "price": 2574.88
+    },
+    {
+      "material": "12 ML PALETTE - EB352",
+      "code": "NP",
+      "quantity": "352",
+      "plant": "Jbr",
+      "weight": 35,
+      "gob": 3,
+      "moq": 3,
+      "price": 2710.4
+    },
+    {
+      "material": "11 ML CTC EBONY DB-360",
+      "code": "NP",
+      "quantity": "360",
+      "plant": "Jbr",
+      "weight": 35,
+      "gob": 3,
+      "moq": 3,
+      "price": 2710.4
+    },
+    {
+      "material": "9 ML SHIRL DB-432",
+      "code": "NP",
+      "quantity": "432",
+      "plant": "Jbr",
+      "weight": 35,
+      "gob": 3,
+      "moq": 3,
+      "price": 2683.2960000000003
+    },
+    {
+      "material": "10 ML LUNAR NAILL POLISH - DB360",
+      "code": "NP",
+      "quantity": "360",
+      "plant": "Jbr",
+      "weight": 35,
+      "gob": 3,
+      "moq": 3,
+      "price": 2981.4400000000005
+    },
+    {
+      "material": "10 ML SEYLAN - EB330",
+      "code": "NP",
+      "quantity": "330",
+      "plant": "Ksb",
+      "weight": 35,
+      "gob": 3,
+      "moq": 3,
+      "price": 2710.4
+    },
+    {
+      "material": "8 ML ANU - EB312",
+      "code": "NP",
+      "quantity": "312",
+      "plant": "Ksb",
+      "weight": 35,
+      "gob": 3,
+      "moq": 3,
+      "price": 2710.4
+    },
+    {
+      "material": "14 ML ARMAND EB63",
+      "code": "NP",
+      "quantity": "B63",
+      "plant": "Ksb",
+      "weight": 35,
+      "gob": 3,
+      "moq": 3,
+      "price": 2249.6320000000005
+    },
+    {
+      "material": "12 ML RENOVA - EB288",
+      "code": "NP",
+      "quantity": "288",
+      "plant": "Ksb",
+      "weight": 35,
+      "gob": 3,
+      "moq": 3,
+      "price": 3320.2400000000007
+    },
+    {
+      "material": "12 ML JK CORAL",
+      "code": "NP",
+      "quantity": "RAL",
+      "plant": "Ksb",
+      "weight": 35,
+      "gob": 3,
+      "moq": 5,
+      "price": 2956.8
+    },
+    {
+      "material": "10 ML INTERNATIONAL - EB405",
+      "code": "NP",
+      "quantity": "405",
+      "plant": "Ksb",
+      "weight": 35.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2507.120000000001
+    },
+    {
+      "material": "10 ML STEP -EB550",
+      "code": "NP",
+      "quantity": "550",
+      "plant": "Ksb",
+      "weight": 35.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2439.3600000000006
+    },
+    {
+      "material": "11 ML CARIBBEAN (ECONOMY)- DB294",
+      "code": "NP",
+      "quantity": "294",
+      "plant": "Ksb",
+      "weight": 35.99,
+      "gob": 3,
+      "moq": 3,
+      "price": 2710.4
+    },
+    {
+      "material": "10 ML ISPARTA NAIL ENAMEL BOTTLE - DB340",
+      "code": "NP",
+      "quantity": "340",
+      "plant": "Jbr",
+      "weight": 36,
+      "gob": 3,
+      "moq": 3,
+      "price": 2710.4
+    },
+    {
+      "material": "10 ML MOZART - DB357",
+      "code": "NP",
+      "quantity": "357",
+      "plant": "Jbr",
+      "weight": 36,
+      "gob": 3,
+      "moq": 3,
+      "price": 2574.88
+    },
+    {
+      "material": "10 ML BP AMALIA NAIL POLISH-DB396",
+      "code": "NP",
+      "quantity": "396",
+      "plant": "Jbr",
+      "weight": 36,
+      "gob": 3,
+      "moq": 3,
+      "price": 2507.428000000001
+    },
+    {
+      "material": "10 ML BP ORLEANS NAIL POLISH",
+      "code": "NP",
+      "quantity": "ISH",
+      "plant": "Jbr",
+      "weight": 36,
+      "gob": 3,
+      "moq": 3,
+      "price": 2508.1056000000003
+    },
+    {
+      "material": "11 ML BP NO 7 - DB360",
+      "code": "NP",
+      "quantity": "360",
+      "plant": "Jbr",
+      "weight": 36,
+      "gob": 3,
+      "moq": 3,
+      "price": 2710.4
+    },
+    {
+      "material": "12 ML BP HOIST NAIL DB-429",
+      "code": "NP",
+      "quantity": "429",
+      "plant": "Jbr",
+      "weight": 36,
+      "gob": 3,
+      "moq": 3,
+      "price": 2507.120000000001
+    },
+    {
+      "material": "12 ML BP SANGRIA - DB414",
+      "code": "NP",
+      "quantity": "414",
+      "plant": "Jbr",
+      "weight": 36,
+      "gob": 3,
+      "moq": 3,
+      "price": 2507.120000000001
+    },
+    {
+      "material": "13 ML BP LEHAR DB-416",
+      "code": "NP",
+      "quantity": "416",
+      "plant": "Jbr",
+      "weight": 36,
+      "gob": 3,
+      "moq": 3,
+      "price": 2642.6400000000003
+    },
+    {
+      "material": "8 ML MKK LA BEAU DB-336",
+      "code": "NP",
+      "quantity": "336",
+      "plant": "Jbr",
+      "weight": 36,
+      "gob": 3,
+      "moq": 3,
+      "price": 2710.4
+    },
+    {
+      "material": "11 ML ANDREZ - EB324",
+      "code": "NP",
+      "quantity": "324",
+      "plant": "Ksb",
+      "weight": 36,
+      "gob": 3,
+      "moq": 3,
+      "price": 2371.600000000001
+    },
+    {
+      "material": "12 ML NUBER – EB288",
+      "code": "NP",
+      "quantity": "288",
+      "plant": "Ksb",
+      "weight": 36,
+      "gob": 3,
+      "moq": 3,
+      "price": 2439.3600000000006
+    },
+    {
+      "material": "12 ML NUBER - EB210",
+      "code": "NP",
+      "quantity": "210",
+      "plant": "Ksb",
+      "weight": 36,
+      "gob": 3,
+      "moq": 3,
+      "price": 2439.3600000000006
+    },
+    {
+      "material": "12 ML CTC MELT",
+      "code": "NP",
+      "quantity": "ELT",
+      "plant": "Ksb",
+      "weight": 36,
+      "gob": 3,
+      "moq": 3,
+      "price": 2956.8
+    },
+    {
+      "material": "NETOS 8 SW - EB330",
+      "code": "NP",
+      "quantity": "330",
+      "plant": "Ksb",
+      "weight": 36.3,
+      "gob": 3,
+      "moq": 3,
+      "price": 2439.3600000000006
+    },
+    {
+      "material": "10 ML KD NEW EVOLVE - EB210",
+      "code": "NP",
+      "quantity": "210",
+      "plant": "Ksb",
+      "weight": 36.38,
+      "gob": 3,
+      "moq": 3,
+      "price": 2845.92
+    },
+    {
+      "material": "12 ML AQUA - EB288",
+      "code": "NP",
+      "quantity": "288",
+      "plant": "Jbr",
+      "weight": 36.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2507.120000000001
+    },
+    {
+      "material": "12 ML MICHELLE - EB396",
+      "code": "NP",
+      "quantity": "396",
+      "plant": "Ksb",
+      "weight": 36.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2439.3600000000006
+    },
+    {
+      "material": "12 ML JAMAICA NAIL DB-462",
+      "code": "NP",
+      "quantity": "462",
+      "plant": "Jbr",
+      "weight": 37,
+      "gob": 3,
+      "moq": 3,
+      "price": 2642.6400000000003
+    },
+    {
+      "material": "10 ML LAVIE  DB-384",
+      "code": "NP",
+      "quantity": "384",
+      "plant": "Jbr",
+      "weight": 37,
+      "gob": 3,
+      "moq": 3,
+      "price": 2621.0800000000004
+    },
+    {
+      "material": "10 ML CTC ROUND DB-378",
+      "code": "NP",
+      "quantity": "378",
+      "plant": "Jbr",
+      "weight": 37,
+      "gob": 3,
+      "moq": 3,
+      "price": 3408.3280000000004
+    },
+    {
+      "material": "9 ML BP APPY - DB378",
+      "code": "NP",
+      "quantity": "378",
+      "plant": "Jbr",
+      "weight": 37,
+      "gob": 3,
+      "moq": 3,
+      "price": 2710.4
+    },
+    {
+      "material": "12 ML W7 -  EB264",
+      "code": "NP",
+      "quantity": "264",
+      "plant": "Ksb",
+      "weight": 37,
+      "gob": 3,
+      "moq": 3,
+      "price": 2574.88
+    },
+    {
+      "material": "10 ML RECTANGLE - DB260",
+      "code": "NP",
+      "quantity": "260",
+      "plant": "Ksb",
+      "weight": 37,
+      "gob": 3,
+      "moq": 3,
+      "price": 2531.34
+    },
+    {
+      "material": "12 ML BERMUDA - DB252",
+      "code": "NP",
+      "quantity": "252",
+      "plant": "Ksb",
+      "weight": 37,
+      "gob": 3,
+      "moq": 3,
+      "price": 2981.4400000000005
+    },
+    {
+      "material": "16 ML MINI-2 -EB400",
+      "code": "NP",
+      "quantity": "400",
+      "plant": "Ksb",
+      "weight": 37,
+      "gob": 3,
+      "moq": 3,
+      "price": 2981.4400000000005
+    },
+    {
+      "material": "0.5 OZ PHOENIX LINE - EB240",
+      "code": "NP",
+      "quantity": "240",
+      "plant": "Ksb",
+      "weight": 37,
+      "price": 2845.92
+    },
+    {
+      "material": "15 ML W7 (WITHOUT LOGO) - EB385",
+      "code": "NP",
+      "quantity": "385",
+      "plant": "Ksb",
+      "weight": 37.01,
+      "gob": 3,
+      "moq": 3,
+      "price": 2981.4400000000005
+    },
+    {
+      "material": "15 ML W7 WITH NOTCH - EB385",
+      "code": "NP",
+      "quantity": "385",
+      "plant": "Ksb",
+      "weight": 37.01,
+      "gob": 3,
+      "moq": 3,
+      "price": 2981.4400000000005
+    },
+    {
+      "material": "10 ML MARMAID - DB366",
+      "code": "NP",
+      "quantity": "366",
+      "plant": "Jbr",
+      "weight": 37.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2642.6400000000003
+    },
+    {
+      "material": "12 ML TUNE NAIL ENAMEL - DB352",
+      "code": "NP",
+      "quantity": "352",
+      "plant": "Ksb",
+      "weight": 37.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2981.4400000000005
+    },
+    {
+      "material": "15 ML MUSIC - EB282",
+      "code": "NP",
+      "quantity": "282",
+      "plant": "Ksb",
+      "weight": 37.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 3320.2400000000007
+    },
+    {
+      "material": "15 ML MUSIC - EB282",
+      "code": "NP",
+      "quantity": "282",
+      "plant": "Ksb",
+      "weight": 37.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 3320.2400000000007
+    },
+    {
+      "material": "15 ML MUSIC (MILLBOARD) - EB210",
+      "code": "NP",
+      "quantity": "210",
+      "plant": "Ksb",
+      "weight": 37.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 3320.2400000000007
+    },
+    {
+      "material": "12 ML EVOLVE - EB210",
+      "code": "NP",
+      "quantity": "210",
+      "plant": "Jbr",
+      "weight": 38,
+      "gob": 3,
+      "moq": 3,
+      "price": 2710.4
+    },
+    {
+      "material": "10 ML BP COATING - DB396",
+      "code": "NP",
+      "quantity": "396",
+      "plant": "Jbr",
+      "weight": 38,
+      "gob": 3,
+      "moq": 3,
+      "price": 2710.4
+    },
+    {
+      "material": "10 ML TEARS - EB297",
+      "code": "NP",
+      "quantity": "297",
+      "plant": "Ksb",
+      "weight": 38,
+      "gob": 3,
+      "moq": 3,
+      "price": 2507.120000000001
+    },
+    {
+      "material": "15 ML W7 LONG NECK - EB240",
+      "code": "NP",
+      "quantity": "240",
+      "plant": "Ksb",
+      "weight": 38,
+      "gob": 3,
+      "moq": 3,
+      "price": 3076.3040000000005
+    },
+    {
+      "material": "10 ML EXPRESS - DB459",
+      "code": "NP",
+      "quantity": "459",
+      "plant": "Ksb",
+      "weight": 38,
+      "gob": 3,
+      "moq": 3,
+      "price": 3184.7200000000007
+    },
+    {
+      "material": "15 ML MILKY (H.W.) - EB264",
+      "code": "NP",
+      "quantity": "264",
+      "plant": "Ksb",
+      "weight": 38.2,
+      "gob": 3,
+      "moq": 3,
+      "price": 2504.409600000001
+    },
+    {
+      "material": "10 ML JANE - EB260",
+      "code": "NP",
+      "quantity": "260",
+      "plant": "Ksb",
+      "weight": 38.31,
+      "gob": 3,
+      "moq": 3,
+      "price": 2710.4
+    },
+    {
+      "material": "15 ML GK VICTORY DB-324",
+      "code": "NP",
+      "quantity": "324",
+      "plant": "Jbr",
+      "weight": 39,
+      "gob": 3,
+      "moq": 3,
+      "price": 3354.120000000001
+    },
+    {
+      "material": "15 ML FULGURANCE -EB396",
+      "code": "NP",
+      "quantity": "396",
+      "plant": "Ksb",
+      "weight": 39,
+      "gob": 3,
+      "moq": 3,
+      "price": 3303.9776000000006
+    },
+    {
+      "material": "12 ML CTC SWEET DB-324",
+      "code": "NP",
+      "quantity": "324",
+      "plant": "Jbr",
+      "weight": 39,
+      "gob": 3,
+      "moq": 3,
+      "price": 2956.8
+    },
+    {
+      "material": "10 ML JAVI - EB324",
+      "code": "NP",
+      "quantity": "324",
+      "plant": "Ksb",
+      "weight": 39.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2439.3600000000006
+    },
+    {
+      "material": "10 ML LUXOR - DB324",
+      "code": "NP",
+      "quantity": "324",
+      "plant": "Ksb",
+      "weight": 39.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 3049.2000000000003
+    },
+    {
+      "material": "10 ML PIN-UP NAIL POLISH - DB308",
+      "code": "NP",
+      "quantity": "308",
+      "plant": "Jbr",
+      "weight": 40,
+      "gob": 3,
+      "moq": 3,
+      "price": 2845.92
+    },
+    {
+      "material": "11 ML BP APPY  EB-378",
+      "code": "NP",
+      "quantity": "378",
+      "plant": "Jbr",
+      "weight": 40,
+      "gob": 3,
+      "moq": 3,
+      "price": 2845.92
+    },
+    {
+      "material": "15 ML CTC CATALONIA",
+      "code": "NP",
+      "quantity": "NIA",
+      "plant": "Ksb",
+      "weight": 40,
+      "gob": 3,
+      "moq": 3,
+      "price": 3049.2000000000003
+    },
+    {
+      "material": "11 ML INGLOT - EB308",
+      "code": "NP",
+      "quantity": "308",
+      "plant": "Ksb",
+      "weight": 40,
+      "gob": 3,
+      "moq": 3,
+      "price": 3523.5200000000013
+    },
+    {
+      "material": "11 ML SPLIT-1 - EB285",
+      "code": "NP",
+      "quantity": "285",
+      "plant": "Jbr",
+      "weight": 40.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2642.6400000000003
+    },
+    {
+      "material": "10 ML NEW STEP - EB260",
+      "code": "NP",
+      "quantity": "260",
+      "plant": "Ksb",
+      "weight": 40.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 2710.4
+    },
+    {
+      "material": "16 ML MINI-2 (WITH MB PARTITION) - EB400",
+      "code": "NP",
+      "quantity": "400",
+      "plant": "Ksb",
+      "weight": 40.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 3116.9600000000005
+    },
+    {
+      "material": "12 ML BP CAMP - DB324",
+      "code": "NP",
+      "quantity": "324",
+      "plant": "Jbr",
+      "weight": 41,
+      "gob": 3,
+      "moq": 3,
+      "price": 2845.92
+    },
+    {
+      "material": "10 ML MODICARE -EB550",
+      "code": "NP",
+      "quantity": "550",
+      "plant": "Ksb",
+      "weight": 41.2,
+      "gob": 3,
+      "moq": 3,
+      "price": 2710.4
+    },
+    {
+      "material": "10 ML CUBE (ECONOMY)-EB312",
+      "code": "NP",
+      "quantity": "312",
+      "plant": "Ksb",
+      "weight": 41.31,
+      "gob": 3,
+      "moq": 3,
+      "price": 2981.4400000000005
+    },
+    {
+      "material": "10 ML CUBE -EB312",
+      "code": "NP",
+      "quantity": "312",
+      "plant": "Ksb",
+      "weight": 41.31,
+      "gob": 3,
+      "moq": 3,
+      "price": 2981.4400000000005
+    },
+    {
+      "material": "12 ML TINA NAIL ENAMEL - EB252",
+      "code": "NP",
+      "quantity": "252",
+      "plant": "Ksb",
+      "weight": 41.59,
+      "gob": 3,
+      "moq": 3,
+      "price": 2710.4
+    },
+    {
+      "material": "15 ML FLUFFY -EB288",
+      "code": "NP",
+      "quantity": "288",
+      "plant": "Jbr",
+      "weight": 42,
+      "gob": 3,
+      "moq": 3,
+      "price": 2981.4400000000005
+    },
+    {
+      "material": "11 ML JUDY - EB315",
+      "code": "NP",
+      "quantity": "315",
+      "plant": "Jbr",
+      "weight": 42,
+      "gob": 3,
+      "moq": 3,
+      "price": 2482.7264000000005
+    },
+    {
+      "material": "10 ML VOLGA VERSION 18 - EB312",
+      "code": "NP",
+      "quantity": "312",
+      "plant": "Jbr",
+      "weight": 42,
+      "gob": 3,
+      "moq": 3,
+      "price": 2845.92
+    },
+    {
+      "material": "11 ML SP - EB208",
+      "code": "NP",
+      "quantity": "208",
+      "plant": "Ksb",
+      "weight": 42,
+      "gob": 3,
+      "moq": 3,
+      "price": 2981.4400000000005
+    },
+    {
+      "material": "10 ML WEDGE - EB252",
+      "code": "NP",
+      "quantity": "252",
+      "plant": "Ksb",
+      "weight": 42,
+      "gob": 3,
+      "moq": 4,
+      "price": 2845.92
+    },
+    {
+      "material": "15 ML SYMPHONY - EB285",
+      "code": "NP",
+      "quantity": "285",
+      "plant": "Ksb",
+      "weight": 42,
+      "gob": 3,
+      "moq": 3,
+      "price": 3511.2000000000007
+    },
+    {
+      "material": "30 ML DROPPER - DB264",
+      "code": "NP",
+      "quantity": "264",
+      "plant": "Jbr",
+      "weight": 45,
+      "gob": 3,
+      "moq": 3,
+      "price": 3080.0000000000005
+    },
+    {
+      "material": "15 ML VIKING - EB273",
+      "code": "NP",
+      "quantity": "273",
+      "plant": "Jbr",
+      "weight": 45,
+      "gob": 3,
+      "moq": 3,
+      "price": 3252.480000000001
+    },
+    {
+      "material": "15 ML FINGER PAINTS - EB240",
+      "code": "NP",
+      "quantity": "240",
+      "plant": "Ksb",
+      "weight": 45.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 4065.6000000000013
+    },
+    {
+      "material": "ARNONA - EB270",
+      "code": "NP",
+      "quantity": "270",
+      "plant": "Ksb",
+      "weight": 45.5,
+      "gob": 3,
+      "moq": 3,
+      "price": 3706.472000000001
+    },
+    {
+      "material": "10 ML KD MOON STONE DB-348",
+      "code": "NP",
+      "quantity": "348",
+      "plant": "Jbr",
+      "weight": 46,
+      "gob": 3,
+      "moq": 3,
+      "price": 3455.7600000000007
+    },
+    {
+      "material": "10 ML KD MOON STONE DB-327",
+      "code": "NP",
+      "quantity": "327",
+      "plant": "Jbr",
+      "weight": 46,
+      "gob": 3,
+      "moq": 3,
+      "price": 3455.7600000000007
+    },
+    {
+      "material": "15 ML ORCHESTRA - EB210",
+      "code": "NP",
+      "quantity": "210",
+      "plant": "Ksb",
+      "weight": 46,
+      "gob": 3,
+      "moq": 3,
+      "price": 3875.8720000000017
+    },
+    {
+      "material": "15 ML LEE - EB270",
+      "code": "NP",
+      "quantity": "270",
+      "plant": "Jbr",
+      "weight": 47,
+      "gob": 3,
+      "moq": 3,
+      "price": 3326.400000000001
+    },
+    {
+      "material": "15 ML NIKO EB-308",
+      "code": "NP",
+      "quantity": "308",
+      "plant": "Jbr",
+      "weight": 48,
+      "gob": 3,
+      "moq": 3,
+      "price": 4065.6000000000013
+    },
+    {
+      "material": "15 ML ANNY - EB140",
+      "code": "NP",
+      "quantity": "140",
+      "plant": "Ksb",
+      "weight": 48,
+      "gob": 3,
+      "moq": 3,
+      "price": 3659.0400000000013
+    },
+    {
+      "material": "15 ML ANNY - EB176",
+      "code": "NP",
+      "quantity": "176",
+      "plant": "Ksb",
+      "weight": 48,
+      "gob": 3,
+      "moq": 3,
+      "price": 3659.0400000000013
+    },
+    {
+      "material": "15 ML ANNY - EB176",
+      "code": "NP",
+      "quantity": "176",
+      "plant": "Ksb",
+      "weight": 48,
+      "gob": 3,
+      "moq": 3,
+      "price": 3659.0400000000013
+    },
+    {
+      "material": "15 ML ANNY (ECONOMY)- EB176",
+      "code": "NP",
+      "quantity": "176",
+      "plant": "Ksb",
+      "weight": 48,
+      "gob": 3,
+      "moq": 3,
+      "price": 3659.0400000000013
+    },
+    {
+      "material": "13 ML OP SQUARE DB-260",
+      "code": "NP",
+      "quantity": "260",
+      "plant": "Jbr",
+      "weight": 52,
+      "gob": 3,
+      "moq": 3,
+      "price": 3591.2800000000016
+    },
+    {
+      "material": "15 ML PIN-UP NAIL POLISH - EB198",
+      "code": "NP",
+      "quantity": "198",
+      "plant": "Jbr",
+      "weight": 52,
+      "gob": 3,
+      "moq": 3,
+      "price": 3726.8000000000015
+    },
+    {
+      "material": "15 ML ALIX - EB162",
+      "code": "NP",
+      "quantity": "162",
+      "plant": "Ksb",
+      "weight": 58,
+      "gob": 3,
+      "moq": 3,
+      "price": 5895.120000000001
+    },
+    {
+      "material": "15 ML ALIX - EB180",
+      "code": "NP",
+      "quantity": "180",
+      "plant": "Ksb",
+      "weight": 58,
+      "gob": 3,
+      "moq": 3,
+      "price": 5895.120000000001
+    }
+  ]
+}
