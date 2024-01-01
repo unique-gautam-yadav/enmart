@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
-import '../../features/auth/state.dart';
+import '../../features/auth/state/state.dart';
 import '../../features/cart/services/cart_provider.dart';
 import '../../routes/routes_const.dart';
 

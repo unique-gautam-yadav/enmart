@@ -5,7 +5,7 @@ import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import '../../../routes/routes_const.dart';
-import '../../auth/state.dart';
+import '../../auth/state/state.dart';
 import '../../cart/services/cart_provider.dart';
 import '../widgets/name_n_profile.dart';
 import '../widgets/option_chip.dart';

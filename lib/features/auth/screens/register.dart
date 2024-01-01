@@ -7,7 +7,7 @@ import 'package:string_validator/string_validator.dart';
 
 import '../../../common/models/app_response.dart';
 import '../../../routes/routes_const.dart';
-import '../state.dart';
+import '../state/state.dart';
 
 class RegisterPage extends StatefulWidget {
   const RegisterPage({super.key});

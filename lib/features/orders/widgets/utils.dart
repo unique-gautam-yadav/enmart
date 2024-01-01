@@ -26,7 +26,7 @@ Color orderStatusToColor(OrderStatus s) => switch (s) {
 Future<String> calculateGrandTotal(OrderCartModel m) async {
   double price = 0;
   for (var o in m.items) {
-    double p = await productPriceById(o.productId);
+    num p = await productPriceById(o.productId);
     price += p * o.quantity;
   }
   return price.toStringAsFixed(2);

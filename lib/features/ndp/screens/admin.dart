@@ -1,8 +1,8 @@
-import 'dart:developer';
 
 import 'package:firebase_ui_firestore/firebase_ui_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:intl/intl.dart';
 
 import '../../../common/constant/app_collections.dart';
@@ -62,20 +62,8 @@ class NDPAdminList extends StatelessWidget {
                   return SizedBox(
                     width: 35,
                     height: 35,
-                    child: GestureDetector(
-                      onTap: () {
-                        showDialog(
-                          context: context,
-                          builder: (_) => AlertDialog(
-                            content: Image.network(
-                              snapshot.get('imgUrl'),
-                            ),
-                          ),
-                        );
-                      },
-                      child: Image.network(
-                        snapshot.get('imgUrl'),
-                      ),
+                    child: Image.network(
+                      snapshot.get('imgUrl'),
                     ),
                   );
                 case 'dateTime':
@@ -91,7 +79,22 @@ class NDPAdminList extends StatelessWidget {
               }
             },
             onTapCell: (snapshot, value, propertyName) {
-              log(propertyName);
+              if (propertyName == "imgUrl") {
+                showDialog(
+                  context: context,
+                  builder: (_) => AlertDialog(
+                    content: Image.network(snapshot.get('imgUrl')),
+                    actions: [
+                      TextButton(
+                        onPressed: () {
+                          context.pop();
+                        },
+                        child: const Text("close"),
+                      )
+                    ],
+                  ),
+                );
+              }
             },
             showCheckboxColumn: false,
             canDeleteItems: false,

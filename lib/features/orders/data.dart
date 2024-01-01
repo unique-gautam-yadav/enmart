@@ -3,6 +3,15 @@ import 'package:retailed_mart/common/models/order_model.dart';
 import 'package:retailed_mart/common/models/user_model.dart';
 import 'package:retailed_mart/features/products/models/product_model.dart';
 
+Future<UserModel?> userByMail(String mail) async {
+  QuerySnapshot<Object?> d =
+      await usersCollection.where('email', isEqualTo: mail).get();
+  if (d.docs.isEmpty) {
+    return null;
+  }
+  return UserModel.fromMap(d.docs.first.data() as Map<String, dynamic>);
+}
+
 Future<UserModel> userByUserId(String uId) async {
   DocumentSnapshot<Object?> d = await usersCollection.doc(uId).get();
   return UserModel.fromMap(d.data() as Map<String, dynamic>);
@@ -14,7 +23,7 @@ Future<ProductModel> productById(String productId) async {
   return ProductModel.fromMap(d.data() as Map<String, dynamic>);
 }
 
-Future<double> productPriceById(String productId) async {
+Future<num> productPriceById(String productId) async {
   DocumentSnapshot<Object?> d = await productsCollection.doc(productId).get();
 
   return ProductModel.fromMap(d.data() as Map<String, dynamic>).price;

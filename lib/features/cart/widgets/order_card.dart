@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 import '../../../common/models/order_model.dart';
@@ -35,12 +36,18 @@ class OrderCard extends StatelessWidget {
             );
           default:
             ProductModel model = snapshot.data!;
-            // ProductModel model = ProductModel(
-            //     id: 'id',
-            //     code: 'code',
-            //     material: 'material',
-            //     quantity: 200,
-            //     price: 200);
+
+            String uid = FirebaseAuth.instance.currentUser!.uid;
+
+            model.price =
+                model.specialUsers.where((e) => e.userId == uid).isEmpty
+                    ? model.price
+                    : model.specialUsers
+                            .where((e) => e.userId == uid)
+                            .first
+                            .price ??
+                        0;
+
             return Table(
               defaultVerticalAlignment: TableCellVerticalAlignment.middle,
               columnWidths: const {
@@ -55,7 +62,11 @@ class OrderCard extends StatelessWidget {
               children: [
                 TableRow(children: [
                   TableCell(child: Text(model.material)),
-                  TableCell(child: Text(model.price.toStringAsFixed(2))),
+                  TableCell(
+                    child: Text(
+                      model.price.toStringAsFixed(2),
+                    ),
+                  ),
                   TableCell(child: Text("${e.quantity}")),
                   TableCell(child: Text("${e.dispatched}")),
                   TableCell(

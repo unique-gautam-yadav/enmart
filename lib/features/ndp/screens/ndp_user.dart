@@ -40,6 +40,8 @@ class _UserNDPScreenState extends State<UserNDPScreen> {
   TextEditingController annualRequirement = TextEditingController();
   TextEditingController remarks = TextEditingController();
 
+  final _fKey = GlobalKey<FormState>();
+
   File? imageFile;
   Uint8List? image;
 
@@ -61,147 +63,160 @@ class _UserNDPScreenState extends State<UserNDPScreen> {
                   SizedBox(
                     width: MediaQuery.sizeOf(context).width,
                   ),
-                  Wrap(
-                    alignment: WrapAlignment.center,
-                    runAlignment: WrapAlignment.center,
-                    spacing: 15,
-                    runSpacing: 15,
-                    children: [
-                      Max400Width(
-                        height: 40,
-                        child: CupertinoTextField(
-                          controller: qfc,
-                          placeholder: "OFC Required",
+                  Form(
+                    key: _fKey,
+                    child: Wrap(
+                      alignment: WrapAlignment.center,
+                      runAlignment: WrapAlignment.center,
+                      spacing: 15,
+                      runSpacing: 15,
+                      children: [
+                        Max400Width(
+                          height: 40,
+                          child: customTextField(
+                            controller: qfc,
+                            placeholder: "OFC Required",
+                          ),
                         ),
-                      ),
-                      Max400Width(
-                        height: 40,
-                        child: CupertinoTextField(
-                          controller: input,
-                          placeholder: "Input",
+                        Max400Width(
+                          height: 40,
+                          child: customTextField(
+                            controller: input,
+                            placeholder: "Input",
+                          ),
                         ),
-                      ),
-                      Max400Width(
-                        height: 40,
-                        child: CupertinoTextField(
-                          controller: quality,
-                          placeholder: "Quality",
+                        Max400Width(
+                          height: 40,
+                          child: customTextField(
+                            controller: quality,
+                            placeholder: "Quality",
+                          ),
                         ),
-                      ),
-                      Max400Width(
-                        height: 40,
-                        child: CupertinoTextField(
-                          controller: plant,
-                          placeholder: "Plant",
+                        Max400Width(
+                          height: 40,
+                          child: customTextField(
+                            controller: plant,
+                            placeholder: "Plant",
+                          ),
                         ),
-                      ),
-                      Max400Width(
-                        height: 40,
-                        child: CupertinoTextField(
-                          controller: packing,
-                          placeholder: "Packing",
+                        Max400Width(
+                          height: 40,
+                          child: customTextField(
+                            controller: packing,
+                            placeholder: "Packing",
+                          ),
                         ),
-                      ),
-                      Max400Width(
-                        height: 40,
-                        child: CupertinoTextField(
-                          controller: embossing,
-                          placeholder: "Embossing",
+                        Max400Width(
+                          height: 40,
+                          child: customTextField(
+                            controller: embossing,
+                            placeholder: "Embossing",
+                          ),
                         ),
-                      ),
-                      Max400Width(
-                        height: 40,
-                        child: CupertinoTextField(
-                          controller: decoration,
-                          placeholder: "Decoration",
+                        Max400Width(
+                          height: 40,
+                          child: customTextField(
+                            controller: decoration,
+                            placeholder: "Decoration",
+                          ),
                         ),
-                      ),
-                      Max400Width(
-                        height: 40,
-                        child: CupertinoTextField(
-                          controller: coating,
-                          placeholder: "Coating",
+                        Max400Width(
+                          height: 40,
+                          child: customTextField(
+                            controller: coating,
+                            placeholder: "Coating",
+                          ),
                         ),
-                      ),
-                      Max400Width(
-                        height: 40,
-                        child: CupertinoTextField(
-                          controller: printing,
-                          placeholder: "Printing",
+                        Max400Width(
+                          height: 40,
+                          child: customTextField(
+                            controller: printing,
+                            placeholder: "Printing",
+                          ),
                         ),
-                      ),
-                      Max400Width(
-                        height: 40,
-                        child: CupertinoTextField(
-                          controller: frosting,
-                          placeholder: "Frosting",
+                        Max400Width(
+                          height: 40,
+                          child: customTextField(
+                            controller: frosting,
+                            placeholder: "Frosting",
+                          ),
                         ),
-                      ),
-                      Max400Width(
-                        height: 40,
-                        child: CupertinoTextField(
-                          controller: hfs,
-                          placeholder: "HFS",
+                        Max400Width(
+                          height: 40,
+                          child: customTextField(
+                            controller: hfs,
+                            placeholder: "HFS",
+                          ),
                         ),
-                      ),
-                      Max400Width(
-                        height: 40,
-                        child: CupertinoTextField(
-                          controller: other,
-                          placeholder: "Other",
+                        Max400Width(
+                          height: 40,
+                          child: customTextField(
+                            controller: other,
+                            placeholder: "Other",
+                          ),
                         ),
-                      ),
-                      Max400Width(
-                        height: 40,
-                        child: CupertinoTextField(
-                          controller: moq,
-                          placeholder: "MOQ",
+                        Max400Width(
+                          height: 40,
+                          child: customTextField(
+                            controller: moq,
+                            placeholder: "MOQ",
+                          ),
                         ),
-                      ),
-                      Max400Width(
-                        height: 40,
-                        child: CupertinoTextField(
-                          controller: annualRequirement,
-                          placeholder: "Annual Requirement",
+                        Max400Width(
+                          height: 40,
+                          child: customTextField(
+                            controller: annualRequirement,
+                            placeholder: "Annual Requirement",
+                          ),
                         ),
-                      ),
-                      Max400Width(
-                        child: CupertinoButton(
-                          onPressed: () {
-                            pickAndCrop(context);
-                          },
-                          child: Container(
-                            padding: const EdgeInsets.all(15),
-                            decoration: BoxDecoration(
-                              border: Border.all(),
-                              borderRadius: BorderRadius.circular(12),
-                            ),
-                            child: Center(
-                              child: imageFile == null
-                                  ? const Text("Your image here")
-                                  : AspectRatio(
-                                      aspectRatio: 1 / 1,
-                                      child: kIsWeb
-                                          ? Image.network(imageFile!.path)
-                                          : Image.file(imageFile!),
-                                    ),
+                        Max400Width(
+                          child: CupertinoButton(
+                            onPressed: () {
+                              pickAndCrop(context);
+                            },
+                            child: Container(
+                              padding: const EdgeInsets.all(15),
+                              decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: CupertinoColors.systemGrey3),
+                                borderRadius: BorderRadius.circular(12),
+                              ),
+                              child: Center(
+                                child: imageFile == null
+                                    ? const Text(
+                                        "Your image here",
+                                        style: TextStyle(
+                                          color: CupertinoColors.systemGrey3,
+                                        ),
+                                      )
+                                    : AspectRatio(
+                                        aspectRatio: 1 / 1,
+                                        child: kIsWeb
+                                            ? Image.network(imageFile!.path)
+                                            : Image.file(imageFile!),
+                                      ),
+                              ),
                             ),
                           ),
                         ),
-                      ),
-                      Max400Width(
-                        height: 40,
-                        child: CupertinoTextField(
-                          controller: remarks,
-                          placeholder: "Remarks",
+                        Max400Width(
+                          height: 40,
+                          child: CupertinoTextField(
+                            controller: remarks,
+                            placeholder: "Remarks",
+                          ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
                   const SizedBox(height: 50),
                   CupertinoButton.filled(
                     child: const Text("SUBMIT"),
-                    onPressed: () => proceedUpload(context),
+                    onPressed: () {
+                      if (_fKey.currentState!.validate()) {
+                        proceedUpload(context);
+                      }
+                    },
                   ),
                   const SizedBox(height: 50),
                 ],
@@ -391,19 +406,22 @@ class _UserNDPScreenState extends State<UserNDPScreen> {
               IOSUiSettings(
                 title: 'Cropper',
               ),
-              WebUiSettings(
-                context: context,
-                presentStyle: CropperPresentStyle.page,
-                boundary: const CroppieBoundary(
-                  width: 520,
-                  height: 520,
-                ),
-                // viewPort: const CroppieViewPort(
-                //     width: 480, height: 480, type: 'circle'),
-                enableExif: true,
-                enableZoom: true,
-                showZoomer: true,
-              ),
+              context.mounted
+                  ? WebUiSettings(
+                      context: context,
+                      presentStyle: CropperPresentStyle.page,
+                      boundary: const CroppieBoundary(
+                        width: 520,
+                        height: 520,
+                      ),
+                      viewPort: const CroppieViewPort(width: 480, height: 480),
+                      enableExif: true,
+                      enableZoom: true,
+                      showZoomer: true,
+                    )
+                  : IOSUiSettings(
+                      title: 'Cropper',
+                    ),
             ],
           );
           if (cFile != null) {
@@ -446,6 +464,38 @@ class _UserNDPScreenState extends State<UserNDPScreen> {
     Fluttertoast.showToast(msg: "Image uploaded");
 
     return u;
+  }
+
+  customTextField(
+      {required TextEditingController controller,
+      required String placeholder}) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Padding(
+          padding: const EdgeInsets.only(left: 0),
+          child: Text(placeholder),
+        ),
+        const SizedBox(height: 4),
+        CupertinoTextFormFieldRow(
+          padding: EdgeInsets.zero,
+          decoration: BoxDecoration(
+            color: Colors.white,
+            border: Border.all(color: CupertinoColors.systemGrey3),
+            borderRadius: BorderRadius.circular(5),
+          ),
+          controller: controller,
+          placeholder: placeholder,
+          validator: (value) {
+            if (value == null || value.isEmpty) {
+              return "This field is required";
+            }
+            return null;
+          },
+        ),
+        const SizedBox(height: 8),
+      ],
+    );
   }
 }
 

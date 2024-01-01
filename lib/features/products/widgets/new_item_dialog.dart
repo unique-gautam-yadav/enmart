@@ -106,6 +106,7 @@ class _NewItemDialogState extends State<NewItemDialog> {
               material: materialController.text,
               price: double.tryParse(priceController.text) ?? 0,
               quantity: int.tryParse(quantityController.text) ?? 0,
+              specialUsers: [],
             );
             if (widget.toUpdate) {
               await productsCollection.doc(widget.copyOf!.id).update(m.toMap());

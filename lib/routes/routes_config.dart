@@ -8,7 +8,7 @@ import 'package:provider/provider.dart';
 import '../common/screens/splash_screen.dart';
 import '../features/auth/screens/login.dart';
 import '../features/auth/screens/register.dart';
-import '../features/auth/state.dart';
+import '../features/auth/state/state.dart';
 import '../features/cart/screens/cart_display.dart';
 import '../features/customers/screens/users.dart';
 import '../features/home/screens/admin_home.dart';

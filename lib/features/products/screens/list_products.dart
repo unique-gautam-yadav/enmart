@@ -1,7 +1,12 @@
+
+import 'package:file_picker/file_picker.dart';
+import 'package:excel/excel.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:go_router/go_router.dart';
+import 'package:quickalert/models/quickalert_type.dart';
+import 'package:quickalert/widgets/quickalert_dialog.dart';
 import 'package:retailed_mart/features/products/screens/user_product.dart';
 
 import '../../../routes/routes_const.dart';
@@ -26,11 +31,22 @@ class _ListProductsState extends State<ListProducts> {
       navigationBar: CupertinoNavigationBar(
         middle: const Text("Products"),
         previousPageTitle: "Home",
-        trailing: CupertinoButton(
-          child: const Icon(CupertinoIcons.add),
-          onPressed: () {
-            addNewItem(context);
-          },
+        trailing: Row(
+          mainAxisAlignment: MainAxisAlignment.end,
+          children: [
+            CupertinoButton(
+              child: const Icon(CupertinoIcons.cloud_download),
+              onPressed: () {
+                pickExcelAndDecode(context);
+              },
+            ),
+            CupertinoButton(
+              child: const Icon(CupertinoIcons.add),
+              onPressed: () {
+                addNewItem(context);
+              },
+            ),
+          ],
         ),
       ),
       child: Material(
@@ -150,5 +166,34 @@ class _ListProductsState extends State<ListProducts> {
     controller.dispose();
     _segment.dispose();
     super.dispose();
+  }
+}
+
+pickExcelAndDecode(BuildContext context) async {
+  QuickAlert.show(context: context, type: QuickAlertType.loading);
+  FilePickerResult? result = await FilePicker.platform.pickFiles(
+    type: FileType.custom,
+    allowedExtensions: ['xlsx'],
+    allowMultiple: false,
+  );
+
+  if (result != null) {
+    var bytes = result.files.single.bytes;
+
+    var excel = Excel.decodeBytes(bytes!.toList());
+    for (var table in excel.tables.keys) {
+      for (var row in excel.tables[table]?.rows ?? []) {
+        for (var cell in row) {
+          print(cell.value);
+        }
+        print('\n\n\n');
+      }
+    }
+  } else {
+    // User canceled the picker
+  }
+
+  if (context.mounted) {
+    context.pop();
   }
 }

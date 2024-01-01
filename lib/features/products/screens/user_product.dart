@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_ui_firestore/firebase_ui_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -89,6 +90,18 @@ class _UserProductsState extends State<UserProducts> {
                   itemBuilder: (context, doc) {
                     ProductModel model = ProductModel.fromMap(
                         doc.data() as Map<String, dynamic>);
+                    String uid = FirebaseAuth.instance.currentUser!.uid;
+                    int sPrice = 0;
+
+                    sPrice =
+                        model.specialUsers.where((e) => e.userId == uid).isEmpty
+                            ? 0
+                            : model.specialUsers
+                                    .where((e) => e.userId == uid)
+                                    .first
+                                    .price ??
+                                0;
+
                     return SizedBox(
                       width: 500,
                       child: CupertinoListTile(
@@ -101,9 +114,34 @@ class _UserProductsState extends State<UserProducts> {
                               title: "Material",
                               value: model.material,
                             ),
-                            RowText(
-                              title: "Price",
-                              value: model.price.toStringAsFixed(2),
+                            Text.rich(
+                              TextSpan(
+                                text: "Price : ",
+                                children: [
+                                  TextSpan(
+                                    text: model.price.toStringAsFixed(0),
+                                    children: sPrice == 0
+                                        ? []
+                                        : [
+                                            TextSpan(
+                                              text: "    $sPrice",
+                                              style: const TextStyle(
+                                                decoration: TextDecoration.none,
+                                              ),
+                                            ),
+                                          ],
+                                    style: TextStyle(
+                                      decoration: sPrice == 0
+                                          ? TextDecoration.none
+                                          : TextDecoration.lineThrough,
+                                      fontWeight: FontWeight.normal,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              style: const TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                           ],
                         ),
@@ -165,53 +203,62 @@ class ProductView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FirestoreListView(
-      shrinkWrap: true,
-      physics: const NeverScrollableScrollPhysics(),
-      query: search
-          ? productsCollection
-              .where(
-                _segment.value == SearchType.code ? 'code' : 'material',
-                isGreaterThanOrEqualTo: controller.text,
-              )
-              .where(_segment.value == SearchType.code ? 'code' : 'material',
-                  isLessThan: '${controller.text}z')
-          : productsCollection.orderBy('code'),
-      emptyBuilder: (context) => Center(
-        child: Padding(
-          padding: const EdgeInsets.all(25),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              SizedBox(
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 12),
+      child: FirestoreListView(
+        shrinkWrap: true,
+        physics: const NeverScrollableScrollPhysics(),
+        query: search
+            ? productsCollection
+                .where(
+                  _segment.value == SearchType.code ? 'code' : 'material',
+                  isGreaterThanOrEqualTo: controller.text,
+                )
+                .where(_segment.value == SearchType.code ? 'code' : 'material',
+                    isLessThan: '${controller.text}z')
+            : productsCollection.orderBy('code'),
+        emptyBuilder: (context) => Center(
+          child: Padding(
+            padding: const EdgeInsets.all(25),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                SizedBox(
                   child: SvgPicture.asset(
-                "assets/svg/empty.svg",
-                width: 250,
-              )),
-              const SizedBox(height: 60),
-              FittedBox(
-                child: Text(
-                  search ? "Try changing keywords" : "You'll find items here ",
-                  style: const TextStyle(
-                    fontSize: 22,
+                    "assets/svg/empty.svg",
+                    width: 250,
                   ),
                 ),
-              ),
-              FittedBox(
-                  child: Text(search
-                      ? "There is no item with such keywords in the products list"
-                      : "no items added till now, contact admin."))
-            ],
+                const SizedBox(height: 60),
+                FittedBox(
+                  child: Text(
+                    search
+                        ? "Try changing keywords"
+                        : "You'll find items here ",
+                    style: const TextStyle(
+                      fontSize: 22,
+                    ),
+                  ),
+                ),
+                FittedBox(
+                  child: Text(
+                    search
+                        ? "There is no item with such keywords in the products list"
+                        : "no items added till now, contact admin.",
+                  ),
+                )
+              ],
+            ),
           ),
         ),
+        loadingBuilder: (_) => const SizedBox(
+          height: 55,
+          width: 55,
+          child: CupertinoActivityIndicator(),
+        ),
+        itemBuilder: itemBuilder,
       ),
-      loadingBuilder: (_) => const SizedBox(
-        height: 55,
-        width: 55,
-        child: CupertinoActivityIndicator(),
-      ),
-      itemBuilder: itemBuilder,
     );
   }
 }

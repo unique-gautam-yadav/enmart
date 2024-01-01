@@ -99,10 +99,12 @@ class CartPage extends StatelessWidget {
                       Expanded(
                         child: ListView(
                           children: [
-                            ...cartProvider.products.map((e) => OrderCard(
-                                  e: e,
-                                  isTable: false,
-                                ))
+                            ...cartProvider.products.map(
+                              (e) => OrderCard(
+                                e: e,
+                                isTable: false,
+                              ),
+                            )
                           ],
                         ),
                       ),
