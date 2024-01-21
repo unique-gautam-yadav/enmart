@@ -35,7 +35,9 @@ class ProductModel {
         material: map['material'] as String,
         quantity: int.parse("${map['quantity'] ?? 0}"),
         price: double.tryParse("${map['price']}") ?? 0,
-        specialUsers: generateSpecialPrice(map['specialUsers']));
+        specialUsers: map["specialUsers"] == null
+            ? []
+            : generateSpecialPrice(map['specialUsers']));
   }
 
   String toJson() => json.encode(toMap());

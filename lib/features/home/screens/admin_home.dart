@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
@@ -17,70 +18,91 @@ class AdminHome extends StatelessWidget {
     var authProvider = Provider.of<AuthProvider>(context);
 
     return Scaffold(
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.symmetric(vertical: 25, horizontal: 20),
-        child: Column(
+      body: Center(
+        child: Stack(
           children: [
-            const SizedBox(height: 25),
-            NameAndProfile(
-              avatarColor: Colors.pink.shade200,
-              name: authProvider.authUser?.displayName ?? "__",
-              iconData: FontAwesomeIcons.building,
+            Positioned(
+              bottom: 0,
+              right: 0,
+              child: SvgPicture.asset(
+                'assets/svg/nature.svg',
+                width: 400,
+                height: 400,
+              ),
             ),
-            const SizedBox(height: 35),
-            FractionallySizedBox(
-              widthFactor: 1,
-              child: Wrap(
-                alignment: WrapAlignment.spaceAround,
-                runSpacing: 35,
-                spacing: 15,
-                children: [
-                  OptionChip(
-                    backgroundColor: Colors.cyan,
-                    foregroundColor: Colors.black87,
-                    icon: FontAwesomeIcons.userGroup,
-                    title: "Users",
-                    onTap: () {
-                      context.push(AdminRoutes.usersRoute.path);
-                    },
-                  ),
-                  OptionChip(
-                    backgroundColor: Colors.pink,
-                    foregroundColor: Colors.black87,
-                    icon: FontAwesomeIcons.box,
-                    title: "Orders",
-                    onTap: () {
-                      context.push(AdminRoutes.adminOrders.path);
-                    },
-                  ),
-                  OptionChip(
-                    backgroundColor: Colors.yellow,
-                    foregroundColor: Colors.black87,
-                    icon: FontAwesomeIcons.boxesPacking,
-                    title: "Products",
-                    onTap: () {
-                      context.push(AppRoutes.productsRoute.path);
-                    },
-                  ),
-                  OptionChip(
-                    backgroundColor: Colors.green,
-                    foregroundColor: Colors.black87,
-                    icon: CupertinoIcons.news_solid,
-                    title: "  NDP  ",
-                    onTap: () {
-                      context.push(AdminRoutes.ndpRoute.path);
-                    },
-                  ),
-                  OptionChip(
-                    backgroundColor: Colors.lightBlue,
-                    foregroundColor: Colors.black87,
-                    icon: Icons.settings,
-                    title: "Settings",
-                    onTap: () {
-                      context.push(AdminRoutes.adminSettings.path);
-                    },
-                  ),
-                ],
+            Container(
+              color: Colors.white.withOpacity(.8),
+            ),
+            Positioned.fill(
+              child: SingleChildScrollView(
+                padding:
+                    const EdgeInsets.symmetric(vertical: 25, horizontal: 20),
+                child: Column(
+                  children: [
+                    const SizedBox(height: 25),
+                    NameAndProfile(
+                      avatarColor: Colors.pink.shade200,
+                      name: authProvider.authUser?.displayName ?? "__",
+                      iconData: FontAwesomeIcons.building,
+                    ),
+                    const SizedBox(height: 35),
+                    FractionallySizedBox(
+                      widthFactor: 1,
+                      child: Wrap(
+                        alignment: WrapAlignment.spaceAround,
+                        runSpacing: 35,
+                        spacing: 15,
+                        children: [
+                          OptionChip(
+                            backgroundColor: Colors.cyan,
+                            foregroundColor: Colors.black87,
+                            icon: FontAwesomeIcons.userGroup,
+                            title: "Users",
+                            onTap: () {
+                              context.push(AdminRoutes.usersRoute.path);
+                            },
+                          ),
+                          OptionChip(
+                            backgroundColor: Colors.pink,
+                            foregroundColor: Colors.black87,
+                            icon: FontAwesomeIcons.box,
+                            title: "Orders",
+                            onTap: () {
+                              context.push(AdminRoutes.adminOrders.path);
+                            },
+                          ),
+                          OptionChip(
+                            backgroundColor: Colors.yellow,
+                            foregroundColor: Colors.black87,
+                            icon: FontAwesomeIcons.boxesPacking,
+                            title: "Products",
+                            onTap: () {
+                              context.push(AppRoutes.productsRoute.path);
+                            },
+                          ),
+                          OptionChip(
+                            backgroundColor: Colors.green,
+                            foregroundColor: Colors.black87,
+                            icon: CupertinoIcons.news_solid,
+                            title: "  NDP  ",
+                            onTap: () {
+                              context.push(AdminRoutes.ndpRoute.path);
+                            },
+                          ),
+                          OptionChip(
+                            backgroundColor: Colors.lightBlue,
+                            foregroundColor: Colors.black87,
+                            icon: Icons.settings,
+                            title: "Settings",
+                            onTap: () {
+                              context.push(AdminRoutes.adminSettings.path);
+                            },
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
           ],
