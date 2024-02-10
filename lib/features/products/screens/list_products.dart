@@ -1,12 +1,15 @@
+import 'dart:developer';
+import 'dart:io';
 
 import 'package:file_picker/file_picker.dart';
-import 'package:excel/excel.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_excel/excel.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:go_router/go_router.dart';
 import 'package:quickalert/models/quickalert_type.dart';
 import 'package:quickalert/widgets/quickalert_dialog.dart';
+import 'package:retailed_mart/common/constant/app_collections.dart';
 import 'package:retailed_mart/features/products/screens/user_product.dart';
 
 import '../../../routes/routes_const.dart';
@@ -178,15 +181,24 @@ pickExcelAndDecode(BuildContext context) async {
   );
 
   if (result != null) {
-    var bytes = result.files.single.bytes;
+    log(result.files.single.path.toString());
 
-    var excel = Excel.decodeBytes(bytes!.toList());
+    var bytes = File(result.files.single.path!).readAsBytesSync();
+
+    var excel = Excel.decodeBytes(bytes);
+
     for (var table in excel.tables.keys) {
       for (var row in excel.tables[table]?.rows ?? []) {
-        for (var cell in row) {
-          print(cell.value);
+        for (var i = 0; i < (excel.tables[table]?.maxCols ?? 0); i++) {
+          try {
+            // TODO: row to data here
+
+            // productsCollection.doc(DateTime.now().mii)
+          } catch (e) {
+            // TODO: Just skip
+          }
+          log("${(row as List<Data?>)[i]?.value}");
         }
-        print('\n\n\n');
       }
     }
   } else {
